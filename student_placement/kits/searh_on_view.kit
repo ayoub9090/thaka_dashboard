@@ -1,0 +1,17 @@
+<!-- @import "../../kits/global/_header_modules.kit" -->
+
+<!-- @import "../../kits/modules/student_placement/searchOn/_content_view.kit" --> 
+
+<!-- @import "../../kits/global/_footer_modules.kit" -->  
+
+<script> 
+	//for demo use
+	$(document).ready(function(){
+		$('.list.sublist li.active').removeClass('active');
+		$('.list.sublist li:nth-child(2)').addClass('active');
+		$('.breadCrump > a:first-child span').text('Manage Student Placement');
+		$('.breadCrump > a:last-child span').text('Search');
+	
+	});
+   
+</script>  

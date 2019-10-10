@@ -1,0 +1,426 @@
+<section id="financial_information" class="inline-class" style="display:none;">
+	<form class="sectionForm">
+
+
+
+   <div class="col-sm-8">
+
+
+     <!-- 1st row -->
+     <div class="row clearfix">
+       <div class="col-sm-4">
+        <div class="form-group">
+         <label for="">Social Security Number</label>
+         <div class="form-line">
+           <input type="text" class="form-control" placeholder="">
+         </div>
+       </div>
+     </div> 
+     <div class="col-sm-4">
+      <div class="form-group">
+        <label for="">Social Security Salary</label>
+        <div class="form-line">
+         <input type="text" class="form-control" placeholder="">
+       </div>
+     </div>
+   </div>
+
+   <div class="col-sm-4">
+    <div class="form-group">
+      <label for="">Basic Salary</label>
+      <div class="form-line">
+       <input type="text" class="form-control" placeholder="">
+     </div>
+   </div>
+ </div>
+
+
+</div>      
+<!-- #END# 1st row -->
+
+</div>
+
+
+<div class="col-sm-12">
+
+  <div class="clearfix">
+
+    <div class="table-information">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td class="mini-actions">
+              <a data-toggle="tooltip" title="" href="javascript:void(0)" data-original-title="Print"><i class="uicon icon_img_print"></i> </a>
+              <span>|</span>
+              <a data-toggle="tooltip" title="" href="javascript:void(0)" data-original-title="Delete"><i class="uicon icon_img_delete"></i></a>
+            </td>
+            <td>
+              2 Actions
+            </td>
+            <td>
+              Page <span>1</span> of <span>1</span>
+            </td>
+
+            <td>
+              <div class="table-navigate">
+
+                <div class="form-line">
+                  <input type="text" class="form-control navigation-input" value="1" placeholder="">
+                </div>
+
+                <div class="navigation-links">
+                  <a href="javascript:void(0)">Back</a>
+                  <span>|</span>
+                  <a class="active" href="javascript:void(0)">Next</a>
+                </div>
+
+              </div>
+            </td>
+
+          </tr>
+
+        </tbody>  
+
+      </table>
+    </div>
+
+    <div class="table-container">
+      <!-- Form start in a new table -->
+
+      <table class="table editable-table">
+        <thead>
+          <tr role="row">
+            <th></th>
+            <th>Type</th>
+            <th>Name</th>
+            <th>Frequency</th>
+            <th>Value Type</th>
+            <th>Percentage
+            Value</th>
+            <th>Value</th>
+            <th>Effective
+            from Month</th>
+            <th>Effective
+            from Year</th>
+            <th>Number
+            of installments</th>
+            <th>Installment
+            Value</th>
+            <th>Installment
+            End Year</th>
+            <th>Installment
+            End Month</th>
+            <th>Status</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+
+
+         <!-- ADDING item start -->
+         <tr role="row" class="adding-new-row selected">
+          <td>
+           <!-- id should be chnaged for 1-choice every drawed row -->
+           <input type="radio" name="radio-group" id="adding-choice" class="single-row-select" value="First Choice" />
+           <label for="adding-choice"></label>
+         </td>
+         <td>
+          <div class="form-line">
+            <select name="value1" class="form-control selectpicker">
+              <option  value="Allowance1">Allowance</option>
+              <option value="">Allowance</option>
+            </select>
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <input  name="value2" type="text" class="form-control" value="Name" placeholder="">
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <select class="form-control selectpicker">
+              <option  value="">Regular</option>
+            </select>
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <select class="form-control selectpicker">
+              <option  value="">Value</option>
+            </select>
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <input  type="text" class="form-control" value="###" placeholder="">
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <input  type="text" class="form-control" value="###" placeholder="">
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <select  class="form-control selectpicker">
+              <option selected value="">Jan</option>
+            </select>
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <select  class="form-control selectpicker">
+              <option  value="">Jan</option>
+            </select>
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <input  type="text" class="form-control" value="###" placeholder="">
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <input  type="text" class="form-control" value="-" placeholder="">
+          </div>
+        </td>         
+        <td>
+          <div class="form-line">
+            <input  type="text" class="form-control" value="-" placeholder="">
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <input  type="text" class="form-control" value="-" placeholder="">
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <select  class="form-control selectpicker">
+              <option  value="">Active</option>
+            </select>
+          </div>
+        </td>
+
+        <td>
+          <!-- @import "../_add_toggle_actions.kit" --> 
+        </td>
+
+      </tr>
+      <!-- #END# ADDING item end -->
+
+      <!-- first item start -->
+      <tr role="row">
+        <td>
+          <!-- id should be chnaged for 1-choice every drawed row -->
+          <input type="radio" name="radio-group" id="1-choice" class="single-row-select" value="First Choice" />
+          <label for="1-choice"></label>
+        </td>
+        <td>
+          <div class="form-line">
+            <select disabled name="value1" class="form-control selectpicker">
+              <option selected value="Allowance1">Allowance</option>
+              <option value="">Allowance</option>
+            </select>
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <input disabled name="value2" type="text" class="form-control" value="Name" placeholder="">
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <select disabled class="form-control selectpicker">
+              <option selected value="">Regular</option>
+            </select>
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <select disabled class="form-control selectpicker">
+              <option selected value="">Value</option>
+            </select>
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <input disabled type="text" class="form-control" value="###" placeholder="">
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <input disabled type="text" class="form-control" value="###" placeholder="">
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <select disabled class="form-control selectpicker">
+              <option selected value="">Jan</option>
+            </select>
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <select disabled class="form-control selectpicker">
+              <option selected value="">Jan</option>
+            </select>
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <input disabled type="text" class="form-control" value="###" placeholder="">
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <input disabled type="text" class="form-control" value="-" placeholder="">
+          </div>
+        </td>         
+        <td>
+          <div class="form-line">
+            <input disabled type="text" class="form-control" value="-" placeholder="">
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <input disabled type="text" class="form-control" value="-" placeholder="">
+          </div>
+        </td>
+        <td>
+          <div class="form-line">
+            <select disabled class="form-control selectpicker">
+              <option selected value="">Active</option>
+            </select>
+          </div>
+        </td>
+        <td>
+        <!-- @import "../_add_toggle_actions.kit" --> 
+        </td>
+
+      </tr>
+      <!-- first item end -->
+
+
+
+      <!-- second item start -->
+      <tr role="row">
+        <td>
+         <!-- id should be chnaged for 1-choice every drawed row -->
+         <input type="radio" name="radio-group" id="2-choice" class="single-row-select" value="First Choice" />
+         <label for="2-choice"></label>
+       </td>
+       <td>
+        <div class="form-line">
+          <select disabled name="value1" class="form-control selectpicker">
+            <option selected value="Allowance1">Allowance</option>
+            <option value="">Allowance</option>
+          </select>
+        </div>
+      </td>
+      <td>
+        <div class="form-line">
+          <input disabled name="value2" type="text" class="form-control" value="Name" placeholder="">
+        </div>
+      </td>
+      <td>
+        <div class="form-line">
+          <select disabled class="form-control selectpicker">
+            <option selected value="">Regular</option>
+          </select>
+        </div>
+      </td>
+      <td>
+        <div class="form-line">
+          <select disabled class="form-control selectpicker">
+            <option selected value="">Value</option>
+          </select>
+        </div>
+      </td>
+      <td>
+        <div class="form-line">
+          <input disabled type="text" class="form-control" value="###" placeholder="">
+        </div>
+      </td>
+      <td>
+        <div class="form-line">
+          <input disabled type="text" class="form-control" value="###" placeholder="">
+        </div>
+      </td>
+      <td>
+        <div class="form-line">
+          <select disabled class="form-control selectpicker">
+            <option selected value="">Jan</option>
+          </select>
+        </div>
+      </td>
+      <td>
+        <div class="form-line">
+          <select disabled class="form-control selectpicker">
+            <option selected value="">Jan</option>
+          </select>
+        </div>
+      </td>
+      <td>
+        <div class="form-line">
+          <input disabled type="text" class="form-control" value="###" placeholder="">
+        </div>
+      </td>
+      <td>
+        <div class="form-line">
+          <input disabled type="text" class="form-control" value="-" placeholder="">
+        </div>
+      </td>         
+      <td>
+        <div class="form-line">
+          <input disabled type="text" class="form-control" value="-" placeholder="">
+        </div>
+      </td>
+      <td>
+        <div class="form-line">
+          <input disabled type="text" class="form-control" value="-" placeholder="">
+        </div>
+      </td>
+      <td>
+        <div class="form-line">
+          <select disabled class="form-control selectpicker">
+            <option selected value="">Active</option>
+          </select>
+        </div>
+      </td>
+      <td>
+
+      <!-- @import "../_add_toggle_actions.kit" --> 
+     </td>
+
+   </tr>
+   <!-- second item end -->
+
+
+
+ </tbody>
+</table>
+
+<!-- Form #END# in a new table -->
+
+</div>
+
+</div>
+
+
+<div class="row clearfix actions-row">
+  <button class="btn btn-submit" type="submit">Save</button>
+  <button class="btn btn-save" type="button">Save & Add New</button>
+  <button class="btn btn-cancel" type="button">Cancel</button>
+
+</div>
+
+
+</div>
+
+
+
+</form>
+
+</section>

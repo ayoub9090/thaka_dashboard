@@ -1,0 +1,224 @@
+<section id="basic_inforamtion" class="inline-class">
+	<form class="sectionForm">
+
+
+<div class="col-sm-4 col-sm-push-8">
+	<div class="upload-avatar">
+		<div class="avatarPreview">
+			<img src="../../assets/images/avatar.png" />
+		</div>
+		<div>
+			<input type="file" name="pic" id="avatarPhoto" accept="image/*">
+			<a href="javascript:uploadAvatar()">Upload your Picture</a>
+			<a title="Delete Photo" class="pull-right delete-photo" href="javascript:removeAvatar()">
+				<i class="uicon icon_img_delete"></i>
+			</a>
+		</div>
+	</div>
+
+</div>
+
+
+	<div class="col-sm-8 col-sm-pull-4">
+	
+
+	<!-- 1st row -->
+	<div class="row clearfix">
+        <div class="col-sm-6">
+            <div class="form-group">
+              <label for="">Employee Number</label>
+              <div class="form-line">
+              <input readonly type="text" class="form-control" value="#98547">
+              </div>
+              </div>
+        </div>
+
+         <div class="col-sm-6">
+            <div class="form-group">
+            	<label for="">Status</label>
+                <div class="form-line">
+                 	 <select class="form-control selectpicker">
+						  <option selected value="active">Active</option>
+						  <option value="inctive">Inactive</option>
+
+					  </select>
+                 </div>
+            </div>
+          </div>
+      </div>
+      <!-- #END# 1st row -->
+
+	<!-- 2nd row -->
+	<div class="row clearfix">
+        <div class="col-sm-12">
+            <div class="form-group">
+              <label for="">Employee Full Name (EN)</label>
+              <div class="form-line">
+              <input type="text" class="form-control" placeholder="Employee name">
+              </div>
+              </div>
+        </div>
+
+      </div>
+      <!-- #END# 2nd row -->
+		<!-- 3rd row -->
+		<div class="row clearfix">
+	        <div class="col-sm-12">
+	            <div class="form-group">
+	              <label for="">Employee Full Name (AR)</label>
+	              <div class="form-line">
+	              <input type="text" class="form-control form-control-rtl" placeholder="Employee name">
+	              </div>
+	              </div>
+	        </div>
+
+	      </div>
+	      <!-- #END# 3rd row -->
+
+	<!-- 4th row -->
+	<div class="row clearfix">
+         <div class="col-sm-3">
+            <div class="form-group">
+            	<label for="">Sex</label>
+                <div class="form-line">
+                 	 <select class="form-control selectpicker">
+						  <option selected value="male">Male</option>
+						  <option value="female">Female</option>
+
+					  </select>
+                 </div>
+            </div>
+          </div>
+
+         <div class="col-sm-3">
+            <div class="form-group">
+            	<label for="">Martial Status</label>
+                <div class="form-line">
+                 	 <select class="form-control selectpicker">
+						  <option selected value="active">Married</option>
+						  <option value="inctive">Single</option>
+					  </select>
+                 </div>
+            </div>
+          </div>
+
+          <div class="col-sm-5 col-sm-offset-1">
+            <div class="form-group">
+            	<label for="">Date of Birth</label>
+                <div class="form-line">
+                 	  <input data-input-type="date" type="text" class="form-control" placeholder="DD/MM/YYYY">
+                 </div>
+            </div>
+          </div>
+      </div>
+
+      <!-- #END# 4th row -->
+
+		<!-- fifth row -->
+		<div class="row clearfix">
+	        <div class="col-sm-4">
+	            <div class="form-group">
+	              <label for="">Nationality</label>
+	              <div class="form-line">
+	               	 <select class="form-control selectpicker">
+						  <option selected value="jordan">Jordan</option>
+						  <option value="Lebanon">Lebanon</option>
+						  <option value="Iraq">Iraq</option>
+					  </select>
+	              </div>
+	              </div>
+	        </div>
+
+          <div class="col-sm-7 col-sm-offset-1">
+            <div class="form-group">
+            	<label for="">National Number / Passport Number</label>
+                <div class="form-line">
+                 	  <input type="text" class="form-control" placeholder="">
+                 </div>
+            </div>
+          </div>
+	      </div>
+	      <!-- #END# fifth row -->
+
+	        <!--  sixth row -->
+	<div class="row clearfix">
+         <div class="col-sm-12">
+            <div class="form-group">
+            	<label for="">Educational Level</label>
+                <div class="form-line">
+                 	 <select class="form-control selectpicker">
+						  <option selected value="">Master</option>
+						  <option value="">PHD</option>
+
+					  </select>
+                 </div>
+            </div>
+          </div>
+</div>
+  <!-- #END# sixth row -->
+
+
+	        <!--  seven row -->
+	<div class="row clearfix">
+         <div class="col-sm-6">
+            <div class="form-group">
+            	<label for="">Hiring Date</label>
+                <div class="form-line">
+                   <input data-input-type="date" type="text" class="form-control" placeholder="DD/MM/YYYY">
+                 </div>
+            </div>
+          </div>
+			<div class="col-sm-6">
+            <div class="form-group">
+            	<label for="">Role</label>
+                <div class="form-line">
+                 	 <select class="form-control selectpicker">
+						  <option selected value="">HO</option>
+						  <option value="">HQ</option>
+					  </select>
+                 </div>
+            </div>
+          </div>
+</div>
+  <!-- #END# seven row -->
+
+
+	        <!--  eight row -->
+	<div class="row clearfix">
+         <div class="col-sm-6">
+            <div class="form-group">
+            	<label for="">Release Date</label>
+                <div class="form-line">
+                   <input data-input-type="date" type="text" class="form-control" placeholder="DD/MM/YYYY">
+                 </div>
+            </div>
+          </div>
+			<div class="col-sm-6">
+            <div class="form-group">
+            	<label for="">Release Reason</label>
+                <div class="form-line">
+                 	 <input type="text" class="form-control" placeholder="">
+                 </div>
+            </div>
+          </div>
+</div>
+  <!-- #END# eight row -->
+
+
+<div class="row clearfix actions-row">
+	<button class="btn btn-submit" type="submit">Save</button>
+	<button class="btn btn-save" type="button">Save & Add New</button>
+	<button class="btn btn-cancel" type="button">Cancel</button>
+
+</div>
+
+
+ 
+</div>
+
+
+
+
+   </form>
+
+</section>

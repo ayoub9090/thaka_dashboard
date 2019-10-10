@@ -1,0 +1,393 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the icons component.
+// -----------------------------------------------------------------------------
+.header_icons,
+.main_header_icons{
+	display:inline-block;
+	width:auto;
+}
+
+.notifications--icon{
+	background-image: url(/assets/images/notifications_icon.svg);
+	display: inline-block;
+	height: 38px;
+	width: 28px;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+.settings--icon{
+	background-image: url(/assets/images/settings_icon.svg);
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+.info--icon{
+	background-image: url(/assets/images/quastion_icon.svg);
+	display: inline-block;
+	height: 32px;
+	width: 21px;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+.main-menu-toggle{
+	&>.menu_waffle{
+
+		background-image: url(/assets/images/menu_waffle.svg);
+		display: inline-block;
+		height: 34px;
+		width: 34px;
+		background-size: 100% 100%;
+		box-sizing: border-box;
+		vertical-align: middle;
+	}
+	margin-right:20px;
+	margin-left: 3px;
+}
+
+
+.warning-icon{
+	background-image: url(/assets/images/warning-icon.png);
+	display: inline-block;
+	height: 30px;
+	width: 32px;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+.knowledge_logo{
+	max-height:60px;
+	transform: translateZ(0);
+}
+
+.header_icons{
+	max-height:32px;
+}
+
+.toggle-bars-menu{
+	background-image: url(/assets/images/menu_bars.svg);
+	display: inline-block;
+	height: 12px;
+	width: 33px;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	vertical-align: middle;
+
+}
+
+.cards_icon{
+	max-width:60px;
+	height:auto;
+}
+
+
+
+/************** SIDEBAR ICONS FOR PAGES *************************/
+.sublist-icons{
+	display: inline-block;	
+	vertical-align: middle;
+	background-repeat:no-repeat;
+	height:35px;
+	width:auto;
+	max-width: 100%;
+}
+
+
+/** EMPLOYEE **/
+/**	.employee-icons_search{
+		background-image:url('/assets/images/search_icon.png');
+		width:30px;
+		height:30px;
+	}
+
+	.employee-icons_add{
+		background-image:url('/assets/images/employee/employee_icon.png');
+		width:20px;
+		height:30px;
+	}
+
+		.employee-icons_salary{
+		background-image:url('/assets/images/employee/salary_icon.png');
+		width:35px;
+		height:30px;
+	}
+
+		.employee-icons_financial{
+		background-image:url('/assets/images/employee/financial_icon.png');
+		width:21px;
+		height:30px; 
+	} 
+	**/
+	/** ./ EMPLOYEE **/
+
+
+
+
+	/************** #END# SIDEBAR ICONS FOR PAGES *************************/
+
+
+
+
+	/*******************MODULES ICONS***************************/
+
+	.mange_employees{
+		background-image: url(/assets/images/modules/mange_employee.png);
+		height: 50px;
+		width: 64px;    
+	}
+
+	.Manage_Course_Instructors{
+		background-image: url(/assets/images/modules/mange_course_instructor.png);
+		height: 50px;
+		width: 60px;    
+	}
+
+
+	.Manage_Training_of_course_Instructors{
+		background-image: url(/assets/images/modules/mange_training_course_instructer.png);
+		height: 50px;
+		width: 62px;    
+	}
+
+	.Manage_materials{
+		background-image: url(/assets/images/modules/mange_materials.png);
+		height: 50px;
+		width: 60px;    
+	}
+
+	.Manage_partners{
+		background-image: url(/assets/images/modules/mange_partners.png);
+		height: 50px;
+		width: 80px;    
+	}
+
+	.Manage_classes{
+		background-image: url(/assets/images/modules/mange_classes.png);
+		height: 50px;
+		width: 85px;    
+	}
+
+	.Manage_students_parents{
+		background-image: url(/assets/images/modules/mange_students_parents.png);
+		height: 50px;
+		width: 29px;    
+	}
+
+	.Manage_student_placement{
+		background-image: url(/assets/images/modules/mange_student_placement.png);
+		height: 50px;
+		width: 52px;    
+	}
+
+	.Manage_Quality_Control_Visits_Course_Instructor_QC_forms{
+		background-image: url(/assets/images/modules/mange_constructor_visits_courses_qc_forms.png);
+		height: 50px;
+		width: 63px;    
+	}
+
+	.Manage_Partner_Invoices{
+		background-image: url(/assets/images/modules/mange_partners_invoices.png);
+		height: 50px;
+		width: 47px;    
+	}
+
+	.Manage_Competitions{
+		background-image: url(/assets/images/modules/mange_competitions.png);
+		height: 50px;
+		width: 62px;    
+	}
+
+	.Manage_Monthly_Salaries_List{
+		background-image: url(/assets/images/modules/mange_monthly_salaries.png);
+		height: 50px;
+		width: 71px;    
+	}
+	.Manage_Work_Documents{
+		background-image: url(/assets/images/modules/mange_work_document.png);
+		height: 50px;
+		width: 46px;    
+	}
+	.Security{
+		background-image: url(/assets/images/modules/groups.png);
+		height: 50px;
+		width: 69px;    
+	}
+
+
+	/*******************#END# MODEULES ICONS***************************/
+
+
+
+	/******************MINI ICONS*******************/
+	.bgIcon{
+		background-size:100% 100%;
+		display:inline-block;
+		vertical-align:top;
+		margin-top: 2px;	
+		&_attachment{
+			background-image: url(/assets/images/icons/attachments.png);
+			width: 18px;
+			height: 25px;
+		}
+		&_notes{
+			background-image: url(/assets/images/icons/notes.png);
+			width: 17px;
+			height: 25px;
+		}
+		&_plus{
+			background-image: url(/assets/images/icons/plus.png);
+			width: 20px;
+			height: 20px;
+		}
+
+		&_add_user{
+			background-image: url(/assets/images/icons/add_user.png);
+			width: 18px;
+			height: 25px;
+		}
+
+		&_add_instructor{
+			background-image: url(/assets/images/icons/add_new_course_inst.png);
+			width: 22px;
+			height: 26px;
+		}
+		&_add_training_instructor{
+			background-image: url(/assets/images/icons/add_add_new_training.png);
+			width: 25px;
+			height: 23px;
+		}
+		&_add_partner{
+			background-image: url(/assets/images/icons/partners_add.png);
+			width: 37px;
+			height: 23px;
+		}
+		&_add_work_document{
+			background-image: url(/assets/images/icons/add_work_doc.png);
+			width: 19px;
+			height: 25px;
+		}
+		
+		&_add_competitions{
+			background-image: url(/assets/images/icons/add_competition.png);
+			width: 19px;
+			height: 24px;
+		}		
+		&_add_class_std{
+			background-image: url(/assets/images/icons/add_new_class.png);
+			width: 27px;
+			height: 19px; 
+		}
+		&_add_class_std1{
+			background-image: url(/assets/images/icons/open_class_first.png);
+			width: 27px;
+			height: 19px; 
+		}
+		&_add_students{
+			background-image: url(/assets/images/icons/add_class_with_std.png);
+			width: 18px;
+			height: 25px; 	
+		}
+		&_add_new_makeup{
+			background-image: url(/assets/images/icons/add_makeup.png);
+			width: 24px;
+			height: 25px; 
+
+		}
+		&_add_material{
+			background-image: url(/assets/images/icons/add_material.png);
+			width: 27px;
+			height: 21px; 
+
+		}
+		&_move_material{
+			background-image: url(/assets/images/icons/add_move_material.png);
+			width: 36px;
+			height: 22px; 
+
+		}
+		&_add_invoice_partner{
+			background-image: url(/assets/images/icons/add_review_invoice.png);
+			width: 19px;
+			height: 26px; 
+		}
+
+		&_add_placement_request{
+			
+			background-image: url(/assets/images/icons/add_placement_request.png);
+			width: 19px;
+			height: 26px; 
+		}
+		&_add_new_qa_form{
+			background-image: url(/assets/images/icons/add_qc_sechedule1.png);
+			width: 29px;
+			height: 23px; 
+		}
+		&_add_group{
+			background-image: url(/assets/images/icons/add_groups.png);
+			width: 29px;
+			height: 23px; 
+		}
+	}
+
+
+
+
+	/******************* #END MINI ICONS#***************/
+
+
+	.calculate_sal{
+		margin-top: 20px;
+		display: block;
+	}
+
+
+	.events_types{
+		background-repeat:no-repeat;
+	}
+
+
+	.preschedule_type1 { 
+		background-image: url(/assets/images/types_icon/schedule_type1.png);
+		background-size: 22px 20px;
+		padding-left: 24px!important;
+		background-position-y: 1px;
+	}
+
+	.CI_request_type2 { 
+		background-image: url(/assets/images/types_icon/instructor_type2.png);
+		background-size: 20px 18px;
+		padding-left: 24px!important;
+		background-position-y: 3px;
+		background-position-x: 2px;
+	}
+
+	.partner_request_type3 { 
+		background-image: url(/assets/images/types_icon/partner_type3.png);
+		background-size: 22px 15px;
+		padding-left: 24px!important;
+		background-position-y: 3px;
+		background-position-x: 0px;
+	}
+
+	.custom_class_visit_type4 { 
+		background-image: url(/assets/images/types_icon/CCV_type4.png);
+		background-size: 22px 18px;
+		padding-left: 24px!important;
+		background-position-y: 2px;
+		background-position-x: 0px;
+	}
+	.custom_general_visit_type5 { 
+		background-image: url(/assets/images/types_icon/CGV_type5.png);
+		background-size: 20px 18px;
+		padding-left: 24px!important;
+		background-position-y: 2px;
+		background-position-x: 0px;
+	}

@@ -1,0 +1,197 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+.navbar {
+  font-family: inherit;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  -ms-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+  width: 100%; }
+  .navbar .navbar-brand {
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden; }
+  .navbar .navbar-custom-right-menu {
+    float: right; }
+  .navbar .navbar-toggle {
+    text-decoration: none;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    margin-top: -4px;
+    margin-right: 17px; }
+    .navbar .navbar-toggle:before {
+      content: '\E8D5';
+      font-family: 'Material Icons';
+      font-size: 26px; }
+  .navbar .navbar-collapse.in {
+    overflow: visible; }
+
+.ls-closed .sidebar {
+  margin-left: -300px; }
+
+.ls-closed section.content {
+  margin-left: 15px; }
+
+.ls-closed .bars:after, .ls-closed .bars:before {
+  font-family: 'Material Icons';
+  font-size: 24px;
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  margin-right: 10px;
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.ls-closed .bars:before {
+  content: '\E5D2';
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1); }
+
+.ls-closed .bars:after {
+  content: '\E5C4';
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  -webkit-transform: scale(0);
+  transform: scale(0); }
+
+.ls-closed .navbar-brand {
+  margin-left: 30px; }
+
+.overlay-open .bars:before {
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  -webkit-transform: scale(0);
+  transform: scale(0); }
+
+.overlay-open .bars:after {
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1); }
+.navbar-header a:not(.navbar-toggle){
+  display:inline-block;
+}
+.navbar-header {
+  padding: 0px; }
+  .navbar-header .bars {
+    float: left;
+    text-decoration: none; }
+
+.navbar-nav > li > a {
+  padding: 7px 7px 2px 7px;
+  margin-left: 5px; }
+
+.navbar-nav .dropdown-menu {
+  margin-top: -40px !important; }
+
+.label-count {
+    position: absolute;
+    top: 4px;
+    right: 24px;
+    font-size: 12px;
+    line-height: 15px;
+    background-color: #ED2224;
+    padding: 0 4px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;}
+  
+
+.navbar__header{
+      padding: 5px 0px 5px 0px;
+}
+
+.navbar-right-header{
+  margin-top:7px;
+}
+
+
+.user-header__information{
+  position:relative;
+  margin-left:5px;
+  &>a{
+    display:inline-block !important;
+  }
+
+  &:before{
+    content:'';
+    position:absolute;
+    width:1px;
+    background:#fff;
+    left:0;
+    height: 94%;
+    bottom: 0;
+  }
+
+}
+
+.breadCrump{
+      display: inline-block;
+    margin-left: 5px;
+    vertical-align: bottom;
+    padding-bottom: 13px;
+  a{
+    color:#fff;
+    position:relative;
+    text-decoration:none;
+    font-size: 110%;
+    span{color:inherit;}
+    &:before{
+content: '\E315';
+    content: '\E315';
+    font-family: 'Material Icons';
+    position: relative;
+    font-size: 24px;
+    height: 20px;
+    top: 0px;
+    right: 0px;
+    /* display: inline-block; */
+    float: left;
+    line-height: 19px;
+    width: 20px;
+    }
+  }
+  &>a:last-child{
+  color:$default-blue;
+  }
+
+}
+
+
+.dropdown-notifications{
+  ul{
+    &>li{
+      a{
+        display:block;
+        width:100%;
+      }
+    }
+  }
+}

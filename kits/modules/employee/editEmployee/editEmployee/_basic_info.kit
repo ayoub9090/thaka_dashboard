@@ -1,0 +1,382 @@
+<section id="basic_inforamtion" class="inline-class">
+	<form class="sectionForm">
+
+
+		<div class="col-sm-4 col-sm-push-8">
+			<div class="upload-avatar">
+				<div class="avatarPreview">
+					<img src="../../assets/images/avatar.png" />
+				</div>
+				<div>
+					<input type="file" name="pic" id="avatarPhoto" accept="image/*">
+					<a href="javascript:uploadAvatar()">Upload your Picture</a>
+					<a title="Delete Photo" class="pull-right delete-photo" href="javascript:removeAvatar()">
+						<i class="uicon icon_img_delete"></i>
+					</a>
+				</div>
+			</div>
+
+		</div>
+
+
+		<div class="col-sm-8 col-sm-pull-4">
+
+			<!-- Error message  -->
+			<div class="alert alert-danger" role="alert">
+				Error message example 
+			</div>
+			<div class="row clearfix">
+				<div class="col-sm-12">
+					<blockquote>PopHover Msg, pophover_alert('{Message Type either warning, info, success or danger}','{Message Text}',{duration in mileSeconds})  --below are examples 
+						<br/>
+						Wait till the message disappear then click on other button to show
+					</blockquote>
+
+				</div>
+			</div>
+
+			<div class="row clearfix">
+				<div class="col-sm-4">
+					<div class="form-group">
+						<label for="">PopHover Msg, pophover_alert('success','success example',4000)</label>
+						<div class="form-line">
+							<button type="button" onclick="pophover_alert('success','success example',4000)" class="btn btn-success">Success</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="form-group">
+						<label for="">PopHover Msg, pophover_alert('danger','danger example',4000)</label>
+						<div class="form-line">
+							<button type="button" onclick="pophover_alert('danger','danger example',4000)" class="btn btn-danger">Danger</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="form-group">
+						<label for="">PopHover Msg, pophover_alert('warning','warning example',4000)</label>
+						<div class="form-line">
+							<button type="button" onclick="pophover_alert('warning','warning example',4000)" class="btn btn-warning">Warning</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row clearfix">
+				<div class="col-sm-4">
+					<div class="form-group">
+						<label for="">PopHover Msg, pophover_alert('info','info example',4000)</label>
+						<div class="form-line">
+							<button type="button" onclick="pophover_alert('info','info example',4000)" class="btn btn-info">info</button>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+
+			<div class="row clearfix">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="">Default Tree Example</label>
+						<div class="form-line">
+							<select  id="tree-select-4" class="select-tree" multiple="multiple">
+								<option value="baz1" data-section="Program 1" selected data-index="1">baz1</option>
+								<option value="baz2" data-section="Program 1" selected data-index="1">baz2</option>
+								<option value="baz3"  data-section="Program 1"  data-index="1">baz3</option>
+								<option value="baz4" data-section="Program 1" selected data-index="1">baz4</option>
+								<option value="quux1" data-section="Program 2" selected data-index="1">quux1</option>
+								<option value="quux2" data-section="Program 2" selected data-index="1">quux2</option>
+								<option value="quux3" data-section="Program 2"  data-index="1">quux3</option>
+								<option value="quux4" data-section="Program 2" selected data-index="1">quux4</option>
+
+								<option value="quux1" data-section="Program 3" selected data-index="1">quux1</option>
+								<option value="quux2" data-section="Program 3" selected data-index="1">quux2</option>
+								<option value="quux3" data-section="Program 3"  data-index="1">quux3</option>
+								<option value="quux4" data-section="Program 3" selected data-index="1">quux4</option>
+
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6"> 
+					<div class="form-group">
+						<label for="">Multi Select Example</label>
+						<div class="form-line">
+							<select class="basic-multiple form-control" name="states[]" multiple="multiple">
+								<option value="ALI">Alabama</option>
+								<option selected="" value="AL">Alabama</option>
+								<option value="ALLI">Alabaaaama</option>
+								<option value="ALIII">AlIIII</option>
+								<option value="WY">Wyoming</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+			<div class="row clearfix">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="">Default Tree Example (Disabled Mode) - Program one is readOnly</label>
+						<div class="form-line">
+							<select  id="tree-select-5" class="select-tree" multiple="multiple">
+								<option readonly value="baz1" data-section="Program 1" selected data-index="1">baz1</option>
+								<option readonly value="baz2" data-section="Program 1" selected data-index="1">baz2</option>
+								<option readonly value="baz3"  data-section="Program 1"  data-index="1">baz3</option>
+								<option readonly value="baz4" data-section="Program 1" selected data-index="1">baz4</option>
+								<option value="quux1" data-section="Program 2" selected data-index="1">quux1</option>
+								<option value="quux2" data-section="Program 2" selected data-index="1">quux2</option>
+								<option value="quux3" data-section="Program 2"  data-index="1">quux3</option>
+								<option value="quux4" data-section="Program 2" selected data-index="1">quux4</option>
+
+								<option value="quux1" data-section="Program 3" selected data-index="1">quux1</option>
+								<option value="quux2" data-section="Program 3" selected data-index="1">quux2</option>
+								<option value="quux3" data-section="Program 3"  data-index="1">quux3</option>
+								<option value="quux4" data-section="Program 3" selected data-index="1">quux4</option>
+
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6"> 
+					<div class="form-group">
+						<label for="">Multi Select Example (Disabled Mode)</label>
+						<div class="form-line">
+							<select disabled="" class="basic-multiple form-control" name="states[]" multiple="multiple">
+								<option value="ALI">Alabama</option>
+								<option selected="" value="AL">Alabama</option>
+								<option value="ALLI">Alabaaaama</option>
+								<option value="ALIII">AlIIII</option>
+								<option value="WY">Wyoming</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- 1st row -->
+			<div class="row clearfix">
+				<div class="col-sm-4">
+					<div class="form-group">
+						<label for="">Employee Number</label>
+						<div class="form-line">
+							<input readonly type="text" class="form-control" value="#98547">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="form-group">
+						<label for="">Status</label>
+						<div class="form-line">
+							<select class="form-control selectpicker" disabled="">
+								<option selected value="active">Active</option>
+								<option value="inctive">Inactive</option>
+
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="form-group">
+						<label for="">Checkbox Example</label>
+						
+						<div class="form-line form-check">
+							<input type="checkbox" class="form-check-input" id="exampleCheck1">
+							<label class="form-check-label" for="exampleCheck1">Check me out</label>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- #END# 1st row -->
+
+			<!-- 2nd row -->
+			<div class="row clearfix">
+				<div class="col-sm-12">
+					<div class="form-group">
+						<label for="">Employee Full Name (EN)</label>
+						<div class="form-line">
+							<input type="text" class="form-control has-error" placeholder="Employee name">
+
+							<label class="error-msg">This Field is Required</label>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- #END# 2nd row -->
+			<!-- 3rd row -->
+			<div class="row clearfix">
+				<div class="col-sm-12">
+					<div class="form-group">
+						<label for="">Employee Full Name (AR)</label>
+						<div class="form-line">
+							<input type="text" class="form-control form-control-rtl" placeholder="Employee name">
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- #END# 3rd row -->
+
+			<!-- 4th row -->
+			<div class="row clearfix">
+				<div class="col-sm-3">
+					<div class="form-group">
+						<label for="">Sex</label>
+						<div class="form-line">
+							<select class="form-control selectpicker has-error">
+								<option selected value="male">Male</option>
+								<option value="female">Female</option>
+
+							</select>
+
+							<label class="error-msg">This Field is Required</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-3">
+					<div class="form-group">
+						<label for="">Martial Status</label>
+						<div class="form-line">
+							<select class="form-control selectpicker">
+								<option selected value="active">Married</option>
+								<option value="inctive">Single</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-5 col-sm-offset-1">
+					<div class="form-group">
+						<label for="">Date of Birth</label>
+						<div class="form-line">
+							<input data-input-type="date" type="text" class="form-control" placeholder="DD/MM/YYYY">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- #END# 4th row -->
+
+			<!-- fifth row -->
+			<div class="row clearfix">
+				<div class="col-sm-4">
+					<div class="form-group">
+						<label for="">Nationality</label>
+						<div class="form-line">
+							<select class="form-control selectpicker">
+								<option selected value="jordan">Jordan</option>
+								<option value="Lebanon">Lebanon</option>
+								<option value="Iraq">Iraq</option>
+							</select>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-7 col-sm-offset-1">
+					<div class="form-group">
+						<label for="">National Number / Passport Number</label>
+						<div class="form-line">
+							<input type="text" class="form-control" placeholder="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- #END# fifth row -->
+
+			<!--  sixth row -->
+			<div class="row clearfix">
+				<div class="col-sm-12">
+					<div class="form-group">
+						<label for="">Educational Level</label>
+						<div class="form-line">
+							<select class="form-control selectpicker">
+								<option selected value="">Master</option>
+								<option value="">PHD</option>
+
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- #END# sixth row -->
+
+
+			<!--  seven row -->
+			<div class="row clearfix">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="">Hiring Date</label>
+						<div class="form-line">
+							<input data-input-type="date" type="text" class="form-control" placeholder="DD/MM/YYYY">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="">Role</label>
+						<div class="form-line">
+							<select class="form-control selectpicker">
+								<option selected value="">HO</option>
+								<option value="">HQ</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- #END# seven row -->
+
+
+			<!--  eight row -->
+			<div class="row clearfix">
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="">Release Date</label>
+						<div class="form-line">
+							<input data-input-type="date" type="text" class="form-control" placeholder="DD/MM/YYYY">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+						<label for="">Release Reason</label>
+						<div class="form-line">
+							<input type="text" class="form-control" placeholder="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- #END# eight row -->
+
+
+			<div class="row clearfix actions-row">
+				<button class="btn btn-submit" type="submit">Save</button>
+
+				<button class="btn btn-cancel" type="button">Cancel</button>
+
+			</div>
+
+
+
+		</div>
+
+
+
+
+	</form>
+
+</section>

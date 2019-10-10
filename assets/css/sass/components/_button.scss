@@ -1,0 +1,96 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.btn{
+
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 6px;
+	margin-right: 4px;
+	font-size: 108%;
+	box-shadow:none !important;
+	outline:0 !important;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	&-submit{
+		background-color: $dark-yellow;
+		//color: $left-sidebar-color;
+		color:#222;
+	}
+
+	&-yellow{
+		background-color: $dark-yellow !important;
+		//color: $left-sidebar-color;
+		color:#222 !important;
+	}
+	
+	&-ok{
+		min-width: 50px;
+	}
+
+	&-save{
+		background-color: #FFF;
+		//color: $left-sidebar-color;
+		color:#222;
+	}
+
+	&-cancel{
+		background-color:$left-sidebar-color;
+		color:#FFF !important;
+	}
+
+	&-row{
+		color:$default-blue !important;
+		background:transparent;
+		background-color:transparent; 
+
+	}
+	&-row-cancel{
+		color:$dark-grey !important;
+	}
+	&-search{
+		background-color: $dark-yellow;
+		color:$icon-grey-dark !important;
+		text-align:center;
+		padding:3px 5px;
+
+		&>i{
+			font-size:16px;
+		}
+	}
+
+	&-filter{
+		background:transparent !important;
+		font-size: 28px;
+		line-height: 24px;
+		padding:0;
+		text-align:center;
+		color:$icon-grey-dark !important;
+	}
+
+	&-delete{
+		background:transparent !important;
+		font-size: 28px;
+		line-height: 24px;
+		padding:0;
+		text-align:center;
+		color:$icon-grey-dark !important;
+	}
+
+
+	&:hover{
+		opacity:0.72;
+	}
+
+
+}
+
+.pull-right{
+	&.btn{
+		margin-right:0;
+		margin-left:4px;
+	}
+}
+

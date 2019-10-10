@@ -1,0 +1,19 @@
+<!-- @import "../../kits/global/_header_modules.kit" -->
+
+
+<!-- @import "../../kits/modules/salaries_list/add_new/_content_view.kit" --> 
+
+<!-- @import "../../kits/global/_footer_modules.kit" -->  
+
+
+<script> 
+	//for demo use
+	$(document).ready(function(){
+		$('.list.sublist li.active').removeClass('active');
+		$('.list.sublist li:nth-child(3)').addClass('active');
+		$('.breadCrump > a:first-child span').text('Manage Monthly Salaries List');
+		$('.breadCrump > a:last-child span').text('Create New Monthly Salaries List');
+	
+	});
+   
+</script>  

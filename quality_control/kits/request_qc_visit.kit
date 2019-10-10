@@ -1,0 +1,17 @@
+<!-- @import "../../kits/global/_header_modules.kit" -->
+
+<!-- @import "../../kits/modules/quality_control/request_qc_visit/_content.kit" --> 
+
+<!-- @import "../../kits/global/_footer_modules.kit" -->  
+ 
+<script> 
+	//for demo use
+	$(document).ready(function(){
+		$('.list.sublist li.active').removeClass('active');
+		$('.list.sublist li:nth-child(3)').addClass('active');
+		$('.breadCrump > a:first-child span').text('Request for QC Visit');
+		$('.breadCrump > a:last-child span').text('...');
+	
+	});
+   
+</script>  

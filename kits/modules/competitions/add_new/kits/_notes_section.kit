@@ -1,0 +1,192 @@
+<section id="notes_section" class="inline-class" style="display:none;">
+	<form class="sectionForm">
+
+
+		<div class="col-sm-12">
+
+			<div class="clearfix">
+
+				<div class="table-information">
+					<table class="table">
+						<tbody>
+							<tr>
+								<td class="mini-actions">
+									<a title="Add" class="bgIcon bgIcon_notes add_table_row" href="javascript:void(0)"></a>
+									<span>|</span>
+									<a data-toggle="tooltip" title="" href="javascript:void(0)" data-original-title="Print"><i class="uicon icon_img_print"></i> </a>
+									<span>|</span>
+									<a data-toggle="tooltip" title="" href="javascript:void(0)" data-original-title="Delete"><i class="uicon icon_img_delete"></i></a>
+								</td>
+
+								<td>
+									2 Actions
+								</td>
+								<td>
+									Page <span>1</span> of <span>1</span>
+								</td>
+
+								<td>
+									<div class="table-navigate">
+
+										<div class="form-line">
+											<input type="text" class="form-control navigation-input" value="1" placeholder="">
+										</div>
+
+										<div class="navigation-links">
+											<a href="javascript:void(0)">Back</a>
+											<span>|</span>
+											<a class="active" href="javascript:void(0)">Next</a>
+										</div>
+
+									</div>
+								</td>
+
+							</tr>
+
+						</tbody>  
+
+					</table>
+				</div>
+
+				<div class="table-container">
+					<!-- Form start in a new table -->
+					
+					<table class="table editable-table">
+						<thead>
+							<tr role="row">
+								<th></th>
+								<th>Note</th>
+								<th>Date</th>
+								<th>User Name</th>
+								<th></th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<!-- ADDING item start -->
+							<tr role="row" class="adding-new-row selected">
+								<td>
+									<!-- id should be chnaged for 1-choice every drawed row -->
+									<input type="radio" name="radio-group" id="notes-adding-choice" class="single-row-select" value="First Choice" />
+									<label for="notes-adding-choice"></label>
+								</td>
+
+								<td>
+									<div class="form-line">
+										<input name="value2" type="text" class="form-control" value="" placeholder="">
+									</div>
+								</td>
+								<td>
+									<div class="form-line">
+										<input data-input-type="date"  type="text" class="form-control" placeholder="DD/MM/YYYY">
+									</div>
+								</td>
+								<td>
+									<div class="form-line">
+										<input name="value2" type="text" class="form-control" value="" placeholder="">
+									</div>
+								</td>
+
+
+								<td>
+									<!-- @import "../_add_toggle_actions.kit" --> 
+									<button class="btn btn-row" type="submit">Save</button>
+								</td>
+
+							</tr>
+							<!-- #END# ADDING item end -->
+
+							<!-- first item start -->
+							<tr role="row">
+								<td>
+									<!-- id should be chnaged for 1-choice every drawed row -->
+									<input type="radio" name="radio-group" id="notes-1-choice" class="single-row-select" value="First Choice" />
+									<label for="notes-1-choice"></label>
+								</td>
+								<td>
+									<div class="form-line">
+										<input disabled name="value2" type="text" class="form-control" value="Note" placeholder="">
+									</div>
+								</td>
+								<td>
+									<div class="form-line">
+										<input disabled=""  data-input-type="date" value="12/11/2016" type="text" class="form-control" placeholder="DD/MM/YYYY">
+									</div>
+								</td>
+								<td>
+									<div class="form-line">
+										<input disabled name="value2" type="text" class="form-control" value="User Name" placeholder="">
+									</div>
+								</td>
+
+
+
+								<td>
+									<!-- @import "../_add_toggle_actions.kit" --> 
+								</td>
+
+							</tr>
+							<!-- first item end -->
+
+
+
+							<!-- second item start -->
+							<tr role="row">
+								<td>
+									<!-- id should be chnaged for 1-choice every drawed row -->
+									<input type="radio" name="radio-group" id="notes-2-choice" class="single-row-select" value="First Choice" />
+									<label for="notes-2-choice"></label>
+								</td>
+
+								<td>
+									<div class="form-line">
+										<input disabled name="value2" type="text" class="form-control" value="Note" placeholder="">
+									</div>
+								</td>
+								<td>
+									<div class="form-line">
+										<input data-input-type="date" disabled value="12/11/2016" type="text" class="form-control" placeholder="DD/MM/YYYY">
+									</div>
+								</td>
+								<td>
+									<div class="form-line">
+										<input disabled name="value2" type="text" class="form-control" value="User Name" placeholder="">
+									</div>
+								</td>
+
+
+								<td>
+
+									<!-- @import "../_add_toggle_actions.kit" --> 
+								</td>
+
+							</tr>
+							<!-- second item end -->
+
+
+
+						</tbody>
+					</table>
+
+					<!-- Form #END# in a new table -->
+
+				</div>
+
+			</div>
+
+
+			<div class="row clearfix actions-row">
+				<button class="btn btn-submit" type="submit">Save</button>
+				<button class="btn btn-save" type="button">Save &amp; Add New</button>
+				<button class="btn btn-cancel" type="button">Cancel</button>
+
+			</div>
+
+
+		</div>
+
+
+
+	</form>
+
+</section>

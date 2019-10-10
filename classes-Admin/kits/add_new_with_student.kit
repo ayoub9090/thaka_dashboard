@@ -1,0 +1,19 @@
+<!-- @import "../../kits/global/_header_modules.kit" -->
+
+
+<!-- @import "../../kits/modules/classes-Admin/add_new_with_student/_content_main.kit" --> 
+
+<!-- @import "../../kits/global/_footer_modules.kit" -->  
+
+ 
+<script> 
+	//for demo use
+	$(document).ready(function(){
+		$('.list.sublist li.active').removeClass('active');
+		$('.list.sublist li:nth-child(4)').addClass('active');
+		$('.breadCrump > a:first-child span').text('Manage Classes');
+		$('.breadCrump > a:last-child span').text('Open a New Class with Students');
+	
+	});
+   
+</script>  

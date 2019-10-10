@@ -1,0 +1,205 @@
+				.bgloader{
+ 					background:rgba(0,0,0,0.83);
+ 					z-index:99;
+ 					position:fixed;
+ 					top:0;
+ 					bottom:0;
+ 					width:100%;
+}
+ 					.bgloader>div{
+ 						position: absolute;
+ 						top: 50%;
+ 						margin-top: -140px;
+ 						left: 50%;
+ 						margin-left: -93px;
+ 						height: 120px;
+ 					}
+ 						.bgloader>div:before{
+ 							background-image: url(/assets/images/login/img_thaka_txt.svg);
+ 							content: '';
+ 							display: block;
+ 							width: 186px;
+ 							height: 38px;
+
+ 						}
+ 						.bgloader>div:after{
+ 							background-image: url(/assets/images/login/knowledge_logo.svg);
+ 							content: '';
+ 							background-repeat:no-repeat;
+ 							display: block;
+ 							-webkit-animation: breathing 0.3s ease-out infinite normal;
+ 							animation: breathing 0.3s ease-out infinite normal;
+ 							height: 61px;
+ 							width:40px;
+ 							margin: 0 auto;
+ 							margin-top:-99px;
+ 						}
+ 						.bgloader>div label{
+ 							font-style: italic;
+ 							display: block;
+ 							margin-top: 80px;
+ 							font-size: 18px;
+ 							color: #FFF !important;
+ 							font-weight: normal;
+ 							opacity:0.7;
+ 						}
+
+
+
+
+ 				
+
+
+ 				
+
+ 				#breathing-button {
+ 					width: 64px;
+ 					-webkit-animation: breathing 0.1s ease-out infinite normal;
+ 					animation: breathing 0.1s ease-out infinite normal;
+ 					font-size: 24px;
+ 					color: #fff;
+ 					-webkit-font-smoothing: antialiased;
+ 					text-align: center;
+ 					display: block;
+ 					margin: 0 auto;
+ 					margin-top: 20px; 
+ 				}
+
+
+ /*				@-webkit-keyframes breathing {
+ 					0% {
+ 						-webkit-transform: scale(0.9);
+ 						transform: scale(0.9);
+ 					}
+
+ 					25% {
+ 						-webkit-transform: scale(1);
+ 						transform: scale(1);
+ 					}
+
+ 					60% {
+ 						-webkit-transform: scale(0.9);
+ 						transform: scale(0.9);
+ 					}
+
+ 					100% {
+ 						-webkit-transform: scale(0.9);
+ 						transform: scale(0.9);
+ 					}
+ 				}
+
+ 				@keyframes breathing {
+ 					0% {
+ 						-webkit-transform: scale(0.9);
+ 						-ms-transform: scale(0.9);
+ 						transform: scale(0.9);
+ 					}
+
+ 					25% {
+ 						-webkit-transform: scale(1);
+ 						-ms-transform: scale(1);
+ 						transform: scale(1);
+ 					}
+
+ 					60% {
+ 						-webkit-transform: scale(0.9);
+ 						-ms-transform: scale(0.9);
+ 						transform: scale(0.9);
+ 					}
+
+ 					100% {
+ 						-webkit-transform: scale(0.9);
+ 						-ms-transform: scale(0.9);
+ 						transform: scale(0.9);
+ 					}
+ 				}
+ 				*/
+
+
+ 				@-webkit-keyframes breathing {
+ 					0% {
+ 						-webkit-transform: scale(0.88);
+ 						-ms-transform: scale(0.88);
+ 						transform: scale(0.88);
+ 					}
+ 					50% {
+ 						-webkit-transform: scale(1);
+ 						-ms-transform: scale(1);
+ 						transform: scale(1);
+ 					}
+ 				}
+ 				@-moz-keyframes breathing {
+ 					0% {
+ 						-webkit-transform: scale(0.88);
+ 						-ms-transform: scale(0.88);
+ 						transform: scale(0.88);
+ 					}
+ 					50% {
+ 						-webkit-transform: scale(1);
+ 						-ms-transform: scale(1);
+ 						transform: scale(1);
+ 					}
+ 				}
+ 				@keyframes breathing {
+ 					0% {
+ 						-webkit-transform: scale(0.88);
+ 						-ms-transform: scale(0.88);
+ 						transform: scale(0.88);
+ 					}
+ 					50% {
+ 						-webkit-transform: scale(1);
+ 						-ms-transform: scale(1);
+ 						transform: scale(1);
+ 					}
+ 				}
+ 				
+
+ 	/*			@-webkit-keyframes breathing {
+ 					0% {
+ 						-moz-transform: scale(-1, 1);
+ 						-webkit-transform: scale(-1, 1);
+ 						-o-transform: scale(-1, 1);
+ 						-ms-transform: scale(-1, 1);
+ 						transform: scale(-1, 1);
+ 					}
+ 					50% {
+ 						-moz-transform: scale(1);
+ 						-webkit-transform: scale(1);
+ 						-o-transform: scale(1);
+ 						-ms-transform: scale(1);
+ 						transform: scale(1);
+ 					}
+ 				}
+ 				@-moz-keyframes breathing {
+ 					0% {
+ 						-moz-transform: scale(-1, 1);
+ 						-webkit-transform: scale(-1, 1);
+ 						-o-transform: scale(-1, 1);
+ 						-ms-transform: scale(-1, 1);
+ 						transform: scale(-1, 1);
+ 					}
+ 					50% {
+ 						-moz-transform: scale(1);
+ 						-webkit-transform: scale(1);
+ 						-o-transform: scale(1);
+ 						-ms-transform: scale(1);
+ 						transform: scale(1);
+ 					}
+ 				}
+ 				@keyframes breathing {
+ 					0% {
+ 						-moz-transform: scale(-1, 1);
+ 						-webkit-transform: scale(-1, 1);
+ 						-o-transform: scale(-1, 1);
+ 						-ms-transform: scale(-1, 1);
+ 						transform: scale(-1, 1);
+ 					}
+ 					50% {
+ 						-moz-transform: scale(1);
+ 						-webkit-transform: scale(1);
+ 						-o-transform: scale(1);
+ 						-ms-transform: scale(1);
+ 						transform: scale(1);
+ 					}
+ 				}  */
+*/    

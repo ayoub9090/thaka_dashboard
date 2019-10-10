@@ -1,0 +1,32 @@
+.subsections-main-list{
+	list-style-type:none;
+	padding:0;
+	margin-bottom:0;
+	&>li{
+		display:inline-block;
+		&>a{
+			display:inline-block;
+			background-color:$bright-grey;
+			padding: 5px 10px;
+			border-radius:6px;
+			margin-right:3px;
+			margin-bottom:7px;
+			-moz-transition:all 0.6s;
+			-webkit-transition:all 0.6s;
+			-ms-transition:all 0.6s;
+			transition:all 0.6s;
+			color:$brand-color;
+			text-decoration:none;
+			font-size:108%;
+		}
+
+		&.active{
+			
+			a{
+				background-color:$dark-grey;
+				color:#fff;
+				pointer-events:none;
+			}
+		}
+	}
+}

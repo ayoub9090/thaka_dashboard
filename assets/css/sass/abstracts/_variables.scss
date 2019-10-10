@@ -1,0 +1,138 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+
+
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+
+$general-font:'PT Sans', sans-serif;
+
+
+
+
+/// Copy text color
+/// @type Color
+$text-color: rgb(34, 34, 34) !default;
+
+/// Main brand color
+/// @type Color
+$brand-color: #222 !default;
+
+/// Light grey
+/// @type Color
+$light-grey: rgb(237, 237, 237) !default;
+
+/// Medium grey
+/// @type Color
+$mid-grey: rgb(153, 153, 153) !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: #58595B !default;
+$bright-grey: #F1F2F2 !default;
+$bright-black: #231F20 !default;
+$dark-black: #000 !default;
+$default-yellow: #FFDD00 !default;
+$dark-yellow:#FAD30A !default;
+$default-blue: #27AAE1 !default;
+
+///$container-color:#D1D3D4 !default;
+$container-color:#D1D3D4 !default;
+
+$left-sidebar-color:#58595B !default;
+$left-sidebar-active-color:#D1D3D4 !default;
+$icon-grey: #F1F2F2  !default; 
+$icon-grey-dark: #58595B !default;
+
+///bootstrap select color
+$color-red-error: rgb(185, 74, 72) !default;
+$color-grey-arrow: rgba(204, 204, 204, 0.2) !default;
+
+$width-default: 220px !default; // 3 960px-grid columns
+
+$zindex-select-dropdown: 1060 !default; // must be higher than a modal background (1050)
+
+
+
+//** Placeholder text color
+$input-color-placeholder: #999 !default;
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+) !default;
+
+
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
+$icon_class_std_ress_result-1: \e903;
+$icon_img_money: \e900;
+$icon_img_attendace2: \e901;
+$icon_img_transfare: \e902;
+$icon_img_switch: \e904;
+$icon_img_group_ppl: \e905;
+$icon_img_attendace1: \e906;
+$icon_img_transfer: \e907;
+$icon_img_present: \e908;
+$icon_img_truck: \e909;
+$icon_img_note: \e90a;
+$icon_img_activation: \e90b;
+$icon_img_dislike: \e90c;
+$icon_img_like: \e90d;
+$icon_img_placemoent_result: \e90e;
+$icon_img_attendance: \e90f;
+$icon_img_working_days_hours: \e910;
+$icon_img_avaliable_days_hours: \e911;
+$icon_img_user_flag: \e912;
+$icon_img_reschedule: \e913;
+$icon_img_placement: \e914;
+$icon_img_coffee_icon: \e915;
+$icon_img_delete: \e916;
+$icon_img_financial: \e917;
+$icon_img_delevere_certificate: \e918;
+$icon_img_search: \e919;
+$icon_img_view: \e91a;
+$icon_img_certificate: \e91b;
+$icon_img_filter: \e91c;
+$icon_img_doctor_headset: \e91d;
+$icon_img_student: \e91e;
+$icon_img_print_salary_slip: \e92b;
+$icon_img_salary_slip: \e92c;
+$icon_img_schedule: \e952;
+$icon_img_holiday: \e953;
+$icon_img_decline: \e954;
+$icon_img_define: \e955;
+$icon_img_move: \e956;
+$icon_img_feedback: \e957;
+$icon_img_remove: \e958;
+$icon_img_cancel: \e959;
+$icon_img_stop: \e95a;
+$icon_img_assign: \e95b;
+$icon_img_print: \e95c;
+$icon_img_review: \e95d;
+$icon_img_edit: \e95e;
+$icon_img_detalis_info: \e95f;
+

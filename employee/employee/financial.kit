@@ -1,0 +1,16 @@
+<!-- @import "../../kits/global/_header_modules.kit" -->
+
+<!-- @import "../../kits/modules/employee/financial/_content.kit" --> 
+
+<!-- @import "../../kits/global/_footer_modules.kit" -->  
+
+
+<script>
+	//for demo use
+	$(document).ready(function(){
+		$('.list.sublist li.active').removeClass('active');
+		$('.list.sublist li:nth-child(5)').addClass('active');
+		$('.breadCrump > a:last-child span').text('Financial');
+	});
+
+</script> 

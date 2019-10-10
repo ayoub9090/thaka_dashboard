@@ -1,0 +1,327 @@
+@font-face {
+  font-family: 'uicon';
+  src:
+    url('fonts/uicon.ttf?m43kad') format('truetype'),
+    url('fonts/uicon.woff?m43kad') format('woff'),
+    url('fonts/uicon.svg?m43kad#uicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.uicon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'uicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_add_area:before {
+  content: "\e949";
+}
+.icon_full_view_attendance:before {
+  content: "\e945";
+}
+.icon_statement_of_account-2:before {
+  content: "\e946";
+}
+.icon_assessment_correction-2:before {
+  content: "\e947";
+}
+.icon_avaliable_course_Instructor_Search:before {
+  content: "\e948";
+}
+.icon_change_class_time:before {
+  content: "\e944";
+}
+.icon_issue_salary:before {
+  content: "\e943";
+}
+.icon_Add_Discount:before {
+  content: "\e938";
+}
+.icon_add_makeup:before {
+  content: "\e939";
+}
+.icon_add_next_class:before {
+  content: "\e93a";
+}
+.icon_Material_Purchase_History:before {
+  content: "\e93b";
+}
+.icon_parent_payment:before {
+  content: "\e93c";
+}
+.icon_refund:before {
+  content: "\e93d";
+}
+.icon_student_payment:before {
+  content: "\e93e";
+}
+.icon_Total_Available_Quantity:before {
+  content: "\e93f";
+}
+.icon_write_off_depit:before {
+  content: "\e940";
+}
+.icon_class_student_reassesment:before {
+  content: "\e91f";
+}
+.icon_course_instructer_evaluation:before {
+  content: "\e920";
+}
+.icon_course_instructer_evaluation_add_1:before {
+  content: "\e921";
+}
+.icon_course_instructer_evaluation_edit_2:before {
+  content: "\e922";
+}
+.icon_course_instructer_evaluation_view_1:before {
+  content: "\e923";
+}
+.icon_edit_permission_1:before {
+  content: "\e924";
+}
+.icon_material_evaluation:before {
+  content: "\e925";
+}
+.icon_material_evaluation_edit:before {
+  content: "\e926";
+}
+.icon_material_evaluation_view:before {
+  content: "\e927";
+}
+.icon_material_mininum_quantity_of_notification:before {
+  content: "\e928";
+}
+.icon_material_suppliers:before {
+  content: "\e929";
+}
+.icon_partenr_invoice_add:before {
+  content: "\e92a";
+}
+.icon_partner_invoice_statement_of_account:before {
+  content: "\e92d";
+}
+.icon_settings:before {
+  content: "\e92e";
+}
+.icon_student_add_1:before {
+  content: "\e92f";
+}
+.icon_student_edit_1:before {
+  content: "\e930";
+}
+.icon_student_parent_add:before {
+  content: "\e931";
+}
+.icon_student_parent_add2:before {
+  content: "\e932";
+}
+.icon_student_parent_edit:before {
+  content: "\e933";
+}
+.icon_student_parent_edit2:before {
+  content: "\e934";
+}
+.icon_student_parent_view:before {
+  content: "\e935";
+}
+.icon_student_parent_view2:before {
+  content: "\e936";
+}
+.icon_student_view_1:before {
+  content: "\e937";
+}
+.icon_class_std_ress_result-1:before {
+  content: "\e903";
+}
+.icon_img_money:before {
+  content: "\e900";
+  color: #4e4f4f;
+}
+.icon_img_attendace2:before {
+  content: "\e901";
+  color: #4e4f4f;
+}
+.icon_img_transfare:before {
+  content: "\e902";
+  color: #4e4f4f;
+}
+.icon_img_switch:before {
+  content: "\e904";
+  color: #4e4e4e;
+}
+.icon_img_group_ppl:before {
+  content: "\e905";
+  color: #4e4f4f;
+}
+.icon_img_attendace1:before {
+  content: "\e906";
+  color: #4e4f4f;
+}
+.icon_img_transfer:before {
+  content: "\e907";
+  color: #4e4f4f;
+}
+.icon_img_present:before {
+  content: "\e908";
+  color: #4e4f4f;
+}
+.icon_img_truck:before {
+  content: "\e909";
+  color: #4e4f4f;
+}
+.icon_img_note:before {
+  content: "\e90a";
+  color: #4e4f4f;
+}
+.icon_img_activation:before {
+  content: "\e90b";
+}
+.icon_img_dislike:before {
+  content: "\e90c";
+  color: #58595b;
+}
+.icon_img_like:before {
+  content: "\e90d";
+  color: #58595b;
+}
+.icon_img_placemoent_result:before {
+  content: "\e90e";
+}
+.icon_img_attendance:before {
+  content: "\e90f";
+}
+.icon_img_working_days_hours:before {
+  content: "\e910";
+}
+.icon_img_avaliable_days_hours:before {
+  content: "\e911";
+}
+.icon_img_user_flag:before {
+  content: "\e912";
+}
+.icon_img_reschedule:before {
+  content: "\e913";
+}
+.icon_img_placement:before {
+  content: "\e914";
+  color: #58595b;
+}
+.icon_img_coffee_icon:before {
+  content: "\e915";
+  color: #4d4e4e;
+}
+.icon_img_delete:before {
+  content: "\e916";
+  color: #58595b;
+}
+.icon_img_financial:before {
+  content: "\e917";
+  color: #58595b;
+}
+.icon_img_delevere_certificate:before {
+  content: "\e918";
+  color: #58595b;
+}
+.icon_img_search:before {
+  content: "\e919";
+  color: #58595b;
+}
+.icon_img_view:before {
+  content: "\e91a";
+  color: #58595b;
+}
+.icon_img_certificate:before {
+  content: "\e91b";
+  color: #58595b;
+}
+.icon_img_filter:before {
+  content: "\e91c";
+  color: #58595b;
+}
+.icon_img_doctor_headset:before {
+  content: "\e91d";
+  color: #58595b;
+}
+.icon_img_student:before {
+  content: "\e91e";
+  color: #58595b;
+}
+.icon_img_print_salary_slip:before {
+  content: "\e92b";
+  color: #58595b;
+}
+.icon_img_salary_slip:before {
+  content: "\e92c";
+  color: #58595b;
+}
+.icon_img_schedule:before {
+  content: "\e952";
+  color: #58595b;
+}
+.icon_img_holiday:before {
+  content: "\e953";
+  color: #58595b;
+}
+.icon_img_decline:before {
+  content: "\e954";
+  color: #58595b;
+}
+.icon_img_define:before {
+  content: "\e955";
+  color: #58595b;
+}
+.icon_img_move:before {
+  content: "\e956";
+}
+.icon_img_feedback:before {
+  content: "\e957";
+  color: #58595b;
+}
+.icon_img_remove:before {
+  content: "\e958";
+  color: #58595b;
+}
+.icon_img_cancel:before {
+  content: "\e959";
+  color: #58595b;
+}
+.icon_img_stop:before {
+  content: "\e95a";
+  color: #58595b;
+}
+.icon_img_assign:before {
+  content: "\e95b";
+  color: #58595b;
+}
+.icon_img_print:before {
+  content: "\e95c";
+  color: #58595b;
+}
+.icon_img_review:before {
+  content: "\e95d";
+  color: #58595b;
+}
+.icon_img_edit:before {
+  content: "\e95e";
+  color: #58595b;
+}
+.icon_img_detalis_info:before {
+  content: "\e95f";
+  color: #58595b;
+}
+.icon_edit_salaries:before {
+  content: "\e941";
+}
+.icon_view_salaries:before {
+  content: "\e942";
+}

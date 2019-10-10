@@ -1,0 +1,819 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<!-- Base64 STYLE IMPORTANT FOR LOADER -->
+		<link rel="stylesheet" href="data:text/css;base64,LmJnbG9hZGVyPmRpdjphZnRlciwuYmdsb2FkZXI+ZGl2OmJlZm9yZXtjb250ZW50OicnO2Rpc3BsYXk6YmxvY2t9LmJnbG9hZGVye2JhY2tncm91bmQ6cmdiYSgwLDAsMCwuODMpO3otaW5kZXg6OTk7cG9zaXRpb246Zml4ZWQ7dG9wOjA7Ym90dG9tOjA7d2lkdGg6MTAwJX0uYmdsb2FkZXI+ZGl2e3Bvc2l0aW9uOmFic29sdXRlO3RvcDo1MCU7bWFyZ2luLXRvcDotMTQwcHg7bGVmdDo1MCU7bWFyZ2luLWxlZnQ6LTkzcHg7aGVpZ2h0OjEyMHB4fS5iZ2xvYWRlcj5kaXY6YmVmb3Jle2JhY2tncm91bmQtaW1hZ2U6dXJsKC9hc3NldHMvaW1hZ2VzL2xvZ2luL2ltZ190aGFrYV90eHQuc3ZnKTt3aWR0aDoxODZweDtoZWlnaHQ6MzhweH0uYmdsb2FkZXI+ZGl2OmFmdGVye2JhY2tncm91bmQtaW1hZ2U6dXJsKC9hc3NldHMvaW1hZ2VzL2xvZ2luL2tub3dsZWRnZV9sb2dvLnN2Zyk7YmFja2dyb3VuZC1yZXBlYXQ6bm8tcmVwZWF0Oy13ZWJraXQtYW5pbWF0aW9uOmJyZWF0aGluZyAuM3MgZWFzZS1vdXQgaW5maW5pdGUgbm9ybWFsO2FuaW1hdGlvbjpicmVhdGhpbmcgLjNzIGVhc2Utb3V0IGluZmluaXRlIG5vcm1hbDtoZWlnaHQ6NjFweDt3aWR0aDo0MHB4O21hcmdpbjotOTlweCBhdXRvIDB9LmJnbG9hZGVyPmRpdiBsYWJlbHtmb250LXN0eWxlOml0YWxpYztkaXNwbGF5OmJsb2NrO21hcmdpbi10b3A6ODBweDtmb250LXNpemU6MThweDtjb2xvcjojRkZGIWltcG9ydGFudDtmb250LXdlaWdodDo0MDA7b3BhY2l0eTouN31ALXdlYmtpdC1rZXlmcmFtZXMgYnJlYXRoaW5nezAley13ZWJraXQtdHJhbnNmb3JtOnNjYWxlKC44OCk7LW1zLXRyYW5zZm9ybTpzY2FsZSguODgpO3RyYW5zZm9ybTpzY2FsZSguODgpfTUwJXstd2Via2l0LXRyYW5zZm9ybTpzY2FsZSgxKTstbXMtdHJhbnNmb3JtOnNjYWxlKDEpO3RyYW5zZm9ybTpzY2FsZSgxKX19QC1tb3ota2V5ZnJhbWVzIGJyZWF0aGluZ3swJXstd2Via2l0LXRyYW5zZm9ybTpzY2FsZSguODgpOy1tcy10cmFuc2Zvcm06c2NhbGUoLjg4KTt0cmFuc2Zvcm06c2NhbGUoLjg4KX01MCV7LXdlYmtpdC10cmFuc2Zvcm06c2NhbGUoMSk7LW1zLXRyYW5zZm9ybTpzY2FsZSgxKTt0cmFuc2Zvcm06c2NhbGUoMSl9fUBrZXlmcmFtZXMgYnJlYXRoaW5nezAley13ZWJraXQtdHJhbnNmb3JtOnNjYWxlKC44OCk7LW1zLXRyYW5zZm9ybTpzY2FsZSguODgpO3RyYW5zZm9ybTpzY2FsZSguODgpfTUwJXstd2Via2l0LXRyYW5zZm9ybTpzY2FsZSgxKTstbXMtdHJhbnNmb3JtOnNjYWxlKDEpO3RyYW5zZm9ybTpzY2FsZSgxKX19">
+        
+        
+		<link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/../../assets/css/stylesheet/main.css">
+        <link rel="stylesheet" href="../../assets/css/stylesheet/vendor/select2.min.css">
+		<link rel="stylesheet" href="../../assets/css/stylesheet/vendor/fullcalendar.min.css">
+        <!--<link rel="stylesheet" href="../../assets/css/stylesheet/vendor/_materialFullCalendar.css">-->
+		
+        <script src="../../assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body class="theme-black">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		
+				
+		<!-- Loader -->
+		<div class="bgloader">
+			<div class="text-center">
+		
+				<label>Loading...</label>
+			
+			</div> 
+		</div>
+		<!-- #END# Loader -->
+		
+		
+		<div class="wrapper">
+		<!-- header -->
+		
+		    <!-- Overlay For Sidebars -->
+    <div class="overlay" style="display: none;"></div>
+    <!-- #END# Overlay For Sidebars -->
+
+    <!-- Top Bar -->
+    <nav class="navbar navbar__header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+                <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
+                <a href="javascript:void(0);" class="bars" style="display: none;"></a>
+                        <a href="javascript:void(0);" class="dropdown-toggle main-menu-toggle js-waffle-sidebar" data-toggle="dropdown" role="button" aria-expanded="true">
+                            <i  class="main_header_icons menu_waffle"></i>
+                        </a>
+
+                        <a href="/" class="dropdown-toggle" role="button" >
+                            <img title="" class="main_header_icons knowledge_logo" src="../../assets/images/knowledge_logo.svg" width="127" height="190" />
+                         
+                        </a>    
+
+
+                    <div class="breadCrump">
+                        <a href="javascript:void(0)">
+                            <span>Mange Employees</span>
+                        </a>
+                        <a href="javascript:void(0)">
+                            <span>Search</span>
+                        </a>
+                    </div>
+
+
+
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right navbar-right-header">
+         
+                    <!-- Notifications -->
+                    <li class="dropdown">
+                        <a  href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">
+                            <i class="header_icons notifications--icon"></i>
+                            
+                            <span class="label-count">71</span>
+                        </a>
+                        
+                        <ul class="dropdown-menu dropdown-notifications">
+                            <li class="header">NOTIFICATIONS</li>
+                            <li class="body">
+                                <ul class="menu">
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                    
+                                            <div class="menu-info">
+                                                <h4>12 new members joined</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 14 mins ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                     
+                                            <div class="menu-info">
+                                                <h4>4 sales made</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 22 mins ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                  
+                                            <div class="menu-info">
+                                                <h4><b>Nancy Doe</b> deleted account</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 3 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                  
+                                            <div class="menu-info">
+                                                <h4><b>Nancy</b> changed name</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 2 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                    
+                                            <div class="menu-info">
+                                                <h4><b>John</b> commented your post</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 4 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                   
+                                            <div class="menu-info">
+                                                <h4><b>John</b> updated status</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 3 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                         
+                                            <div class="menu-info">
+                                                <h4>Settings updated</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> Yesterday
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer">
+                                <a href="javascript:void(0);">View All Notifications</a>
+                            </li>
+                        </ul>
+                    
+                    
+                    </li>
+                    <!-- #END# Notifications -->
+   
+                    
+                     <!-- Settings -->
+                    <li>
+                        <a href="javascript:void(0);" class="js-settings-sidebar" data-close="true">
+                                <i class="header_icons settings--icon"></i>
+                        </a>
+                   
+                    </li>
+                    <!-- #END# Settings -->
+                    
+                    <!-- Info -->
+                    <li>
+                        <a href="#">
+                               <i class="header_icons info--icon"></i>
+                        </a>
+                   
+                    </li>
+                    <!-- #END# Info -->
+                     
+                    <!-- user-header__information -->
+                    <li class="user-header__information user-helper-dropdown">
+                    
+                        <a href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                               User Name
+                        </a>
+
+                        <a href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <img title="User name" class="header_icons user--icon" src="../../assets/images/user_icon.svg" width="61" height="78" />
+                        </a>
+                        
+
+                  
+                        <ul class="dropdown-menu pull-right">
+                            <li><a href="javascript:void(0);"><i class="material-icons">person</i>Profile</a></li>
+                            <li role="seperator" class="divider"></li>
+                            <li><a href="javascript:void(0);"><i class="material-icons">group</i>Followers</a></li>
+                            <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Sales</a></li>
+                            <li><a href="javascript:void(0);"><i class="material-icons">favorite</i>Likes</a></li>
+                            <li role="seperator" class="divider"></li>
+                            <li><a href="javascript:void(0);"><i class="material-icons">input</i>Sign Out</a></li>
+                        </ul>
+                   
+
+                    </li>
+                    <!-- #END# user-header__information -->
+                </ul>
+                <!-- user information -->
+                 
+      
+                    
+              
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+     
+		
+		<section>
+		  <!-- Waffle Sidebar (Main Menu) -->
+  <aside id="WaffleMenuSidebar" class="WaffleMenu-sidebar">
+  	
+           <!-- <div class="container-fluid">
+ 
+
+            <a href="javascript:void(0);" class="dropdown-toggle main-menu-toggle js-waffle-sidebar" data-toggle="dropdown" role="button" aria-expanded="true">
+                <i  class="main_header_icons menu_waffle"></i>
+            </a>
+
+        </div>-->
+
+
+
+        <!-- ICONS LIST START -->
+        <div>
+
+        	<ul class="modules_list">
+        		<li class="singleIcons">
+        			<a href="/employee/searh_on.html">
+        				<i class="mange_employees"></i>
+        				<span>Manage Employee</span>
+        			</a>
+        		</li>
+        		<li class="singleIcons">
+        			<a href="/course-instructors/searh_on.html">
+        				<i class="Manage_Course_Instructors"></i>
+        				<span>Manage Course Instructors</span>
+        			</a>
+        		</li>
+        		<li class="singleIcons">
+        			<a href="/training_course_instructor/searh_on.html"> 
+        				<i class="Manage_Training_of_course_Instructors"></i>
+        				<span>Manage Training of course Instructors</span>
+        			</a>
+        		</li>
+        		<li class="singleIcons">
+        			<a href="/materials/searh_on.html">
+        				<i class="Manage_materials"></i>
+        				<span>Manage Materials</span>
+        			</a>
+        			
+        		</li>
+        		<li class="singleIcons">
+        			<a href="/partners/searh_on.html">
+        				<i class="Manage_partners"></i>
+        				<span>Manage Partners</span>
+        			</a>
+        		</li>
+        		<li class="singleIcons">
+        			<a href="/classes-Admin/searh_on.html"><!-- /classes/searh_on.html -->
+        				<i class="Manage_classes"></i>
+        				<span>Manage Classes</span>
+        			</a>
+        		</li>
+        		<li class="singleIcons">
+        			<a href="/students_parents/searh_on.html">
+        				<i class="Manage_students_parents"></i>
+        				<span>Manage Students and Parents</span>
+        			</a>
+        		</li>
+        		<li class="singleIcons">
+        			<a href="/student_placement/searh_on.html">
+        				<i class="Manage_student_placement"></i>
+        				<span>Manage Student Placement</span>
+        			</a>
+        		</li>
+        		<li class="singleIcons singleIcons__full">
+        			<a href="/quality_control/searh_on.html">
+        				<i class="Manage_Quality_Control_Visits_Course_Instructor_QC_forms"></i>
+        				<span>Manage Quality Control Visits and Course Instructor QC forms</span>
+        			</a>
+        		</li>
+        		<li class="singleIcons">
+        			<a href="/partners_invoices/searh_on.html">
+        				<i class="Manage_Partner_Invoices"></i>
+        				<span>Manage Partner Invoices</span>
+        			</a>
+        		</li>
+        		<li class="singleIcons">
+        			<a href="/competitions/searh_on.html">
+        				<i class="Manage_Competitions"></i>
+        				<span>Manage Competitions</span>
+        			</a>
+        		</li>
+        		<li class="singleIcons">
+        			<a href="/salaries_list/searh_on.html">
+        				<i class="Manage_Monthly_Salaries_List"></i>
+        				<span>Manage Monthly Salaries List</span>
+        			</a>
+        		</li>
+        		<li class="singleIcons">
+        			<a href="/work_documents/searh_on.html">
+        				<i class="Manage_Work_Documents"></i>
+        				<span>Manage Work Documents</span>
+        			</a>
+        		</li>
+
+        		<li class="singleIcons">
+        			<a href="/security/searh_on.html">
+        				<i class="Security"></i>
+        				<span>Security</span>
+        			</a>
+        		</li>
+        	</ul>
+        </div>
+
+    </aside>
+
+    
+    <!-- #END# Waffle Sidebar -->
+
+    
+    
+     
+		
+        <!-- Right Sidebar (Settings) -->
+        <aside id="settingssidebar" class="settings-sidebar right-sidebar">
+            <ul class="nav nav-tabs tab-nav-right" role="tablist">
+          
+                <li class="active single" role="presentation"><a href="#settings" data-toggle="tab">SETTINGS</a></li>
+            </ul>
+            <div class="tab-content">
+        
+                <div role="tabpanel" class="tab-pane fade in active in active" id="settings">
+                    <div class="demo-settings">
+                        <p>GENERAL SETTINGS</p>
+                        <ul class="setting-list">
+                            <li>
+                                <span>Report Panel Usage</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Email Redirect</span>
+                                <div class="switch">
+                                    <label><input type="checkbox"><span class="lever"></span></label>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>SYSTEM SETTINGS</p>
+                        <ul class="setting-list">
+                            <li>
+                                <span>Notifications</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Auto Updates</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                        </ul>
+                        <p>ACCOUNT SETTINGS</p>
+                        <ul class="setting-list">
+                            <li>
+                                <span>Offline</span>
+                                <div class="switch">
+                                    <label><input type="checkbox"><span class="lever"></span></label>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Location Permission</span>
+                                <div class="switch">
+                                    <label><input type="checkbox" checked><span class="lever"></span></label>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            
+            </div>
+        </aside>
+        <!-- #END# Right Sidebar (Settings) --> 
+		</section>
+		
+		
+		
+		
+		
+		
+
+                  <section> 
+		<!-- Left Sidebar -->
+        <aside id="leftsidebar" class="sidebar">
+			 <div class="menu">
+			 <ul class="list sublist">
+			   <li>
+                            <a title="toggle menu" class="toggleBarsMenu__link" href="javascript:toggleBarsMenu()">
+                                <i class="toggle-bars-menu"></i>
+                            </a>
+                        </li>
+			 
+                    <li  class="">
+                        <a title="Search on Employee" href="/employee/searh_on.html">
+                             <span class="Icons-image-container">
+                           <img class="sublist-icons" src="../../assets/images/search_icon.png" />
+                       </span>
+                            <span>Search on Employee</span>
+                        </a>
+                    </li> 
+                    <li>
+                        <a title="Add New Employee" href="/employee/add_new.html">
+                             <span class="Icons-image-container">
+                             <img class="sublist-icons" src="../../assets/images/icons/add_employee.png" />
+                         </span>
+                            <span>Add New Employee</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Print Employee Salary Slip" href="/employee/print_salary.html">
+                             <span class="Icons-image-container">
+                            <img class="sublist-icons" src="../../assets/images/icons/salary_icon.png" />
+                        </span>
+                            <span>Print Employee Salary Slip</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Financial" href="/employee/financial.html">
+                         <span class="Icons-image-container">
+                             <img class="sublist-icons" src="../../assets/images/icons/financial_icon.png" />
+                         </span>
+                            <span>Financial</span>
+                        </a>
+                    </li>
+
+                </ul>
+				
+				    </div>   
+        </aside>
+        <!-- #END# Left Sidebar -->
+
+
+    </section> 
+
+
+    <section class="content Maincontent">
+
+    	<div class="container-fluid sections-content">
+
+
+    		<!-- Sections --> 
+    		<section  class="inline-class" >
+    			<form class="sectionForm">
+
+
+    				<div class="col-sm-10">
+
+    					<div class="clearfix">
+
+    						<div class="table-information table-white">
+    							<table class="table">
+    								<tbody>
+    									<tr>
+    										<td></td>
+    										<td> 
+    											
+    											<label class="label-title">Category Title</label>
+
+    										</td>    										
+    										<td class="text-right">
+    											<label>Total Scale: 4</label>
+    										</td>
+    										<td></td>
+    									</tr>
+
+    								</tbody>  
+
+    							</table>
+    						</div>
+
+    						<div class="table-container margin-half">
+    							<!-- Form start in a new table -->
+
+    							<table class="table">
+    								<thead>
+    									<tr role="row">
+    										<th></th>
+    										<th>Add New Sub Category</th>
+    										<th style="width:140px;">Scale</th>
+    										<th style="width:140px;">Scale</th>
+    										<th></th>
+    									</tr>
+    								</thead>
+    								<tbody>
+
+
+    									<!-- first item start -->
+    									<tr role="row">
+    										<td></td>
+    										<td>
+    											<div class="form-line">
+    												<label>Sub Category</label>
+    											</div>
+    										</td>
+
+    										<td>
+    											<div class="form-line">
+    												<label>Scale</label>
+    											</div>
+    										</td>
+
+    										<td> 
+    											<div class="form-line">
+    												<input name="value2" type="text" class="form-control form-control--mini" value="" placeholder="Scale">
+    											</div>
+    										</td>
+
+    										<td>
+    											
+    										</td>
+
+    									</tr>
+    									<!-- first item end -->
+
+
+
+    								</tbody>
+    							</table>
+
+    							<!-- Form #END# in a new table -->
+
+    						</div>
+
+    					</div>
+
+    				</div>
+
+
+    			</form>
+
+    		</section>
+
+    		<section  class="inline-class" >
+    			<form class="sectionForm">
+
+
+    				<div class="col-sm-10">
+
+    					<div class="clearfix">
+
+    						<div class="table-information table-white">
+    							<table class="table">
+    								<tbody>
+    									<tr>
+    										<td></td>
+    										<td> 
+    											
+    											<label class="label-title">Category Title</label>
+
+    										</td>    										
+    										<td class="text-right">
+    											<label>Total Scale: 4</label>
+    										</td>
+    										<td></td>
+    									</tr>
+
+    								</tbody>  
+
+    							</table>
+    						</div>
+
+    						<div class="table-container margin-half">
+    							<!-- Form start in a new table -->
+
+    							<table class="table">
+    								<thead>
+    									<tr role="row">
+    										<th></th>
+    										<th>Add New Sub Category</th>
+    										<th style="width:140px;">Scale</th>
+    										<th style="width:140px;">Scale</th>
+    										<th></th>
+    									</tr>
+    								</thead>
+    								<tbody>
+
+
+    									<!-- first item start -->
+    									<tr role="row">
+    										<td></td>
+    										<td>
+    											<div class="form-line">
+    												<label>Sub Category</label>
+    											</div>
+    										</td>
+
+    										<td>
+    											<div class="form-line">
+    												<label>Scale</label>
+    											</div>
+    										</td>
+
+    										<td> 
+    											<div class="form-line">
+    												<input name="value2" type="text" class="form-control form-control--mini" value="" placeholder="Scale">
+    											</div>
+    										</td>
+
+    										<td>
+    											
+    										</td>
+
+    									</tr>
+    									<!-- first item end -->
+    									<!-- second item start -->
+    									<tr role="row">
+    										<td></td>
+    										<td>
+    											<div class="form-line">
+    												<label>Sub Category</label>
+    											</div>
+    										</td>
+
+    										<td>
+    											<div class="form-line">
+    												<label>Scale</label>
+    											</div>
+    										</td>
+
+    										<td> 
+    											<div class="form-line">
+    												<input name="value2" type="text" class="form-control form-control--mini" value="" placeholder="Scale">
+    											</div>
+    										</td>
+
+    										<td>
+    											
+    										</td>
+
+    									</tr>
+    									<!-- second item end -->
+
+    									<!-- 3rd item start -->
+    									<tr role="row">
+    										<td></td>
+    										<td>
+    											<div class="form-line">
+    												<label>Sub Category</label>
+    											</div>
+    										</td>
+
+    										<td>
+    											<div class="form-line">
+    												<label>Scale</label>
+    											</div>
+    										</td>
+
+    										<td> 
+    											<div class="form-line">
+    												<input name="value2" type="text" class="form-control form-control--mini" value="" placeholder="Scale">
+    											</div>
+    										</td>
+
+    										<td>
+    											
+    										</td>
+
+    									</tr>
+    									<!-- 3rd item end -->
+    								</tbody>
+    							</table>
+
+    							<!-- Form #END# in a new table -->
+
+    						</div>
+
+    					</div>
+
+    				</div>
+
+
+    			</form>
+
+    		</section>
+
+
+    		<section  class="inline-class" >
+    			<div class="col-sm-6 col-xs-12"> 
+    				<div class="form-group">
+    					<label for="">Notes</label>
+    					<div class="form-line">
+    						<textarea class="form-control form-control--miniTextarea"></textarea>
+    					</div>
+    				</div>
+    			</div>
+    		</section>
+    		<div class="col-xs-12">
+    			<div class="row clearfix actions-row">
+    				<button class="btn btn-submit" type="submit">ADD</button>
+
+    				<button class="btn btn-cancel" type="button">Cancel</button>
+
+    			</div>
+    		</div>
+
+    	</div>
+
+
+    </section> 
+
+
+ 
+
+	
+
+<div class="pophover_alert"> 
+	<div class="alert" role="alert">
+		success message example 
+	</div>
+</div>
+
+
+
+</div>
+<!--- ./wrapper end --->
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+<script src="../../assets/js/vendor/bootstrap.min.js"></script>
+
+
+<!-- Select Plugin Js -->
+<script src="../../assets/js/vendor/bootstrap-select.js"></script>
+
+<!-- Slimscroll Plugin Js -->
+<script src="../../assets/js/vendor/jquery.slimscroll.js"></script>
+
+<!-- Waves Effect Plugin Js -->
+<script src="../../assets/js/vendor/waves.js"></script>
+
+<!-- Match height Plugin JS -->
+<script src="../../assets/js/vendor/jquery.matchHeight-min.js"></script>
+
+<!-- Input mask bundled -->
+<script src="../../assets/js/vendor/jquery.inputmask.bundle.js"></script>
+
+<!-- Select 2 -->
+<script src="../../assets/js/vendor/select2.min.js"></script>
+
+<!-- Moment js -->
+<script src="../../assets/js/vendor/moment.js"></script>
+
+<!-- calender full view -->
+<script src="../../assets/js/vendor/fullcalendar.min.js"></script>
+
+<!-- calender full CUSTOM -->
+<script src="../../assets/js/fullCalenderCustom.js"></script>
+
+
+<!-- treeview  -->
+<script src="../../assets/js/vendor/hummingbird-treeview.js"></script>
+
+<!-- Custom Js -->
+<script src="../../assets/js/vendor/admin.js"></script>
+
+<!-- Main Js -->
+<script src="../../assets/js/main.js"></script>
+
+<!-- custom Js -->
+<script src="../../assets/js/custom.js"></script>
+
+</body>
+</html>  
+
+<script>
+	//for demo use
+	$(document).ready(function(){
+		$('.list.sublist li.active').removeClass('active');
+		$('.list.sublist li:nth-child(4)').addClass('active');
+		$('.breadCrump > a:last-child span').text('Categories view 1'); 
+	});
+ 
+</script>

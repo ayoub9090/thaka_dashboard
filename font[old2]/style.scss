@@ -1,0 +1,481 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?dluxrb') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?dluxrb') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?dluxrb##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.uicon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_change_class_time {
+  &:before {
+    content: $icon_change_class_time; 
+  }
+}
+.icon_issue_salary {
+  &:before {
+    content: $icon_issue_salary; 
+  }
+}
+.icon_Add_Discount {
+  &:before {
+    content: $icon_Add_Discount; 
+  }
+}
+.icon_add_makeup {
+  &:before {
+    content: $icon_add_makeup; 
+  }
+}
+.icon_add_next_class {
+  &:before {
+    content: $icon_add_next_class; 
+  }
+}
+.icon_Material_Purchase_History {
+  &:before {
+    content: $icon_Material_Purchase_History; 
+  }
+}
+.icon_parent_payment {
+  &:before {
+    content: $icon_parent_payment; 
+  }
+}
+.icon_refund {
+  &:before {
+    content: $icon_refund; 
+  }
+}
+.icon_student_payment {
+  &:before {
+    content: $icon_student_payment; 
+  }
+}
+.icon_Total_Available_Quantity {
+  &:before {
+    content: $icon_Total_Available_Quantity; 
+  }
+}
+.icon_write_off_depit {
+  &:before {
+    content: $icon_write_off_depit; 
+  }
+}
+.icon_class_student_reassesment {
+  &:before {
+    content: $icon_class_student_reassesment; 
+  }
+}
+.icon_course_instructer_evaluation {
+  &:before {
+    content: $icon_course_instructer_evaluation; 
+  }
+}
+.icon_course_instructer_evaluation_add_1 {
+  &:before {
+    content: $icon_course_instructer_evaluation_add_1; 
+  }
+}
+.icon_course_instructer_evaluation_edit_2 {
+  &:before {
+    content: $icon_course_instructer_evaluation_edit_2; 
+  }
+}
+.icon_course_instructer_evaluation_view_1 {
+  &:before {
+    content: $icon_course_instructer_evaluation_view_1; 
+  }
+}
+.icon_edit_permission_1 {
+  &:before {
+    content: $icon_edit_permission_1; 
+  }
+}
+.icon_material_evaluation {
+  &:before {
+    content: $icon_material_evaluation; 
+  }
+}
+.icon_material_evaluation_edit {
+  &:before {
+    content: $icon_material_evaluation_edit; 
+  }
+}
+.icon_material_evaluation_view {
+  &:before {
+    content: $icon_material_evaluation_view; 
+  }
+}
+.icon_material_mininum_quantity_of_notification {
+  &:before {
+    content: $icon_material_mininum_quantity_of_notification; 
+  }
+}
+.icon_material_suppliers {
+  &:before {
+    content: $icon_material_suppliers; 
+  }
+}
+.icon_partenr_invoice_add {
+  &:before {
+    content: $icon_partenr_invoice_add; 
+  }
+}
+.icon_partner_invoice_statement_of_account {
+  &:before {
+    content: $icon_partner_invoice_statement_of_account; 
+  }
+}
+.icon_settings {
+  &:before {
+    content: $icon_settings; 
+  }
+}
+.icon_student_add_1 {
+  &:before {
+    content: $icon_student_add_1; 
+  }
+}
+.icon_student_edit_1 {
+  &:before {
+    content: $icon_student_edit_1; 
+  }
+}
+.icon_student_parent_add {
+  &:before {
+    content: $icon_student_parent_add; 
+  }
+}
+.icon_student_parent_add2 {
+  &:before {
+    content: $icon_student_parent_add2; 
+  }
+}
+.icon_student_parent_edit {
+  &:before {
+    content: $icon_student_parent_edit; 
+  }
+}
+.icon_student_parent_edit2 {
+  &:before {
+    content: $icon_student_parent_edit2; 
+  }
+}
+.icon_student_parent_view {
+  &:before {
+    content: $icon_student_parent_view; 
+  }
+}
+.icon_student_parent_view2 {
+  &:before {
+    content: $icon_student_parent_view2; 
+  }
+}
+.icon_student_view_1 {
+  &:before {
+    content: $icon_student_view_1; 
+  }
+}
+.icon_class_std_ress_result-1 {
+  &:before {
+    content: $icon_class_std_ress_result-1; 
+  }
+}
+.icon_img_money {
+  &:before {
+    content: $icon_img_money;     
+    color: #4e4f4f;
+  }
+}
+.icon_img_attendace2 {
+  &:before {
+    content: $icon_img_attendace2;     
+    color: #4e4f4f;
+  }
+}
+.icon_img_transfare {
+  &:before {
+    content: $icon_img_transfare;     
+    color: #4e4f4f;
+  }
+}
+.icon_img_switch {
+  &:before {
+    content: $icon_img_switch;     
+    color: #4e4e4e;
+  }
+}
+.icon_img_group_ppl {
+  &:before {
+    content: $icon_img_group_ppl;     
+    color: #4e4f4f;
+  }
+}
+.icon_img_attendace1 {
+  &:before {
+    content: $icon_img_attendace1;     
+    color: #4e4f4f;
+  }
+}
+.icon_img_transfer {
+  &:before {
+    content: $icon_img_transfer;     
+    color: #4e4f4f;
+  }
+}
+.icon_img_present {
+  &:before {
+    content: $icon_img_present;     
+    color: #4e4f4f;
+  }
+}
+.icon_img_truck {
+  &:before {
+    content: $icon_img_truck;     
+    color: #4e4f4f;
+  }
+}
+.icon_img_note {
+  &:before {
+    content: $icon_img_note;     
+    color: #4e4f4f;
+  }
+}
+.icon_img_activation {
+  &:before {
+    content: $icon_img_activation; 
+  }
+}
+.icon_img_dislike {
+  &:before {
+    content: $icon_img_dislike;     
+    color: #58595b;
+  }
+}
+.icon_img_like {
+  &:before {
+    content: $icon_img_like;     
+    color: #58595b;
+  }
+}
+.icon_img_placemoent_result {
+  &:before {
+    content: $icon_img_placemoent_result; 
+  }
+}
+.icon_img_attendance {
+  &:before {
+    content: $icon_img_attendance; 
+  }
+}
+.icon_img_working_days_hours {
+  &:before {
+    content: $icon_img_working_days_hours; 
+  }
+}
+.icon_img_avaliable_days_hours {
+  &:before {
+    content: $icon_img_avaliable_days_hours; 
+  }
+}
+.icon_img_user_flag {
+  &:before {
+    content: $icon_img_user_flag; 
+  }
+}
+.icon_img_reschedule {
+  &:before {
+    content: $icon_img_reschedule; 
+  }
+}
+.icon_img_placement {
+  &:before {
+    content: $icon_img_placement;     
+    color: #58595b;
+  }
+}
+.icon_img_coffee_icon {
+  &:before {
+    content: $icon_img_coffee_icon;     
+    color: #4d4e4e;
+  }
+}
+.icon_img_delete {
+  &:before {
+    content: $icon_img_delete;     
+    color: #58595b;
+  }
+}
+.icon_img_financial {
+  &:before {
+    content: $icon_img_financial;     
+    color: #58595b;
+  }
+}
+.icon_img_delevere_certificate {
+  &:before {
+    content: $icon_img_delevere_certificate;     
+    color: #58595b;
+  }
+}
+.icon_img_search {
+  &:before {
+    content: $icon_img_search;     
+    color: #58595b;
+  }
+}
+.icon_img_view {
+  &:before {
+    content: $icon_img_view;     
+    color: #58595b;
+  }
+}
+.icon_img_certificate {
+  &:before {
+    content: $icon_img_certificate;     
+    color: #58595b;
+  }
+}
+.icon_img_filter {
+  &:before {
+    content: $icon_img_filter;     
+    color: #58595b;
+  }
+}
+.icon_img_doctor_headset {
+  &:before {
+    content: $icon_img_doctor_headset;     
+    color: #58595b;
+  }
+}
+.icon_img_student {
+  &:before {
+    content: $icon_img_student;     
+    color: #58595b;
+  }
+}
+.icon_img_print_salary_slip {
+  &:before {
+    content: $icon_img_print_salary_slip;     
+    color: #58595b;
+  }
+}
+.icon_img_salary_slip {
+  &:before {
+    content: $icon_img_salary_slip;     
+    color: #58595b;
+  }
+}
+.icon_img_schedule {
+  &:before {
+    content: $icon_img_schedule;     
+    color: #58595b;
+  }
+}
+.icon_img_holiday {
+  &:before {
+    content: $icon_img_holiday;     
+    color: #58595b;
+  }
+}
+.icon_img_decline {
+  &:before {
+    content: $icon_img_decline;     
+    color: #58595b;
+  }
+}
+.icon_img_define {
+  &:before {
+    content: $icon_img_define;     
+    color: #58595b;
+  }
+}
+.icon_img_move {
+  &:before {
+    content: $icon_img_move; 
+  }
+}
+.icon_img_feedback {
+  &:before {
+    content: $icon_img_feedback;     
+    color: #58595b;
+  }
+}
+.icon_img_remove {
+  &:before {
+    content: $icon_img_remove;     
+    color: #58595b;
+  }
+}
+.icon_img_cancel {
+  &:before {
+    content: $icon_img_cancel;     
+    color: #58595b;
+  }
+}
+.icon_img_stop {
+  &:before {
+    content: $icon_img_stop;     
+    color: #58595b;
+  }
+}
+.icon_img_assign {
+  &:before {
+    content: $icon_img_assign;     
+    color: #58595b;
+  }
+}
+.icon_img_print {
+  &:before {
+    content: $icon_img_print;     
+    color: #58595b;
+  }
+}
+.icon_img_review {
+  &:before {
+    content: $icon_img_review;     
+    color: #58595b;
+  }
+}
+.icon_img_edit {
+  &:before {
+    content: $icon_img_edit;     
+    color: #58595b;
+  }
+}
+.icon_img_detalis_info {
+  &:before {
+    content: $icon_img_detalis_info;     
+    color: #58595b;
+  }
+}
+.icon_edit_salaries {
+  &:before {
+    content: $icon_edit_salaries; 
+  }
+}
+.icon_view_salaries {
+  &:before {
+    content: $icon_view_salaries; 
+  }
+}
+

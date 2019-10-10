@@ -1,0 +1,247 @@
+body{
+	background:#010101;
+}
+/*    --------------------------------------------------
+	:: Login Section
+	-------------------------------------------------- */
+#login {
+    padding-top: 50px
+}
+#login .form-wrap {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 360px;
+	margin-top:70px;
+	position:relative;
+	margin-bottom:50px;
+
+}
+#login h1 {
+    color: #1fa67b;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#login .form-group {
+    margin-bottom: 25px;
+}
+#login .checkbox {
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+#login .checkbox.show:before {
+    content: '\e013';
+    color: #1fa67b;
+    font-size: 17px;
+    margin: 1px 0 0 3px;
+    position: absolute;
+    pointer-events: none;
+    font-family: 'Glyphicons Halflings';
+}
+#login .checkbox .character-checkbox {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    display: inline-block;
+}
+#login .checkbox .label {
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: normal;
+}
+#login .btn.btn-custom {
+    font-size: 16px;
+    margin-bottom: 22px;
+    padding: 0px;
+    padding-top: 0px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #FFF;
+    border: 0;
+    height: 35px;
+    /* border: 1px solid; */
+    border-radius: 0;
+    border-right: 0;
+    border-left: 0;
+    font-family: inherit;
+    text-transform: uppercase;
+	    margin-top: 20px;
+			-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+#login .btn.btn-custom:hover{
+ background: rgba(0, 0, 0, 0.7);
+}
+.btn-login{
+
+}
+#login .forget {
+    font-size: 14px;
+	text-align: left;
+	display: block;
+	color:#FFF;
+	outline:0 !important;
+}
+
+/*    --------------------------------------------------
+	:: Inputs & Buttons
+	-------------------------------------------------- */
+.form-control {
+    color: #212121;
+}
+.btn-custom {
+      color: #fff;
+    background-color: transparent;
+    border: 2px solid #222;
+    border-radius: 0;
+    height: 30px;
+    color: #000;
+}
+
+
+/*    --------------------------------------------------
+    :: Footer
+	-------------------------------------------------- */
+
+/* only demo styles */
+
+
+/* end only demo styles */
+
+.checkbox-custom, .radio-custom {
+    opacity: 0;
+    position: absolute;   
+}
+
+.checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
+     display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #FFF;
+    font-family: inherit;
+    font-weight: normal;
+	margin-top:10px;
+}
+
+.checkbox-custom-label, .radio-custom-label {
+    position: relative;
+}
+
+.checkbox-custom + .checkbox-custom-label:before, .radio-custom + .radio-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+       color: #000;
+    content: "\e013";
+    position: relative;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 18px;
+}
+
+.radio-custom + .radio-custom-label:before {
+    border-radius: 50%;
+}
+
+.radio-custom:checked + .radio-custom-label:before {
+    background: #ccc;
+}
+
+
+
+
+.login-txt{
+	margin-bottom:35px;
+}
+
+#login .form-wrap:before{
+    content: '';
+    width: 600%;
+    background-image: url(../../images/login/line.svg);
+    background-size: contain;
+    height: 40px;
+    /* margin-top: 20px; */
+    position: absolute;
+    bottom: 30px;
+    right: -126px;
+    background-repeat: repeat-x;
+	z-index:-1;
+}
+
+#login .form-wrap:after{
+      content: '';
+    width: 200px;
+    background-image: url(../../images/login/knowledge_logo.svg);
+    background-size: contain;
+    height: 310px;
+    position: absolute;
+    bottom: -8px;
+    right: -219px;
+    background-repeat: no-repeat;
+	transform:translateZ(0);
+}
+
+.btn-signin{
+    margin-bottom: 70px;
+}
+
+@media(max-width:767px){
+	#login{
+	    width: 100%;
+    overflow: hidden;
+	}
+	
+	#login .form-wrap:after{
+	    bottom: auto;
+    top: -100px;
+   
+    right: auto;
+    width: 50px;
+    height: 80px;
+    left: 50%;
+    margin-left: -25px;
+	}
+	
+	#login .form-wrap{
+	margin-top:86px;
+	margin-bottom:50px;
+	}
+	
+	#login .form-wrap:before {
+	display:none;
+		right: 0;
+		left: 0;
+		width: 100%;
+		background-size: cover;
+	}
+	
+	.btn-signin{
+	    margin-bottom: 25px;
+	}
+}

@@ -1,0 +1,154 @@
+.print-container{
+	font-size:14px;
+	.print-grey-bg {
+		background:#7A7B7C;
+		padding:15px 0;
+		margin-bottom:20px;
+		
+		label{
+			color:#FFF !important;
+		}
+	}
+	.white-balance{
+		
+		width: 100%;
+		text-align: right;
+		margin-left: 20px;
+		background: #FFF;
+		padding: 2px 5px;
+		margin: 0;
+		margin-left: 8px;
+	}
+
+	.print-table{
+		table-layout: fixed;
+		margin-left:-8px;
+		&>tbody{
+			&>tr{
+				&.with-top-space{
+					&>td{
+						padding-top:16px !important;
+					}
+				}
+				border:0;
+				&>td{
+					vertical-align:middle;
+					border:0;
+					padding-bottom: 0;
+					padding-top: 4px;
+				}
+			}
+		}
+
+
+	}
+}
+
+.table-recepet{
+	
+	padding-top:15px;
+
+	&-title{
+		border-bottom:1px solid $dark-grey;
+	}
+	&>tbody{
+		&>tr{
+			&>td{
+				border:0;
+				padding:0;
+			}
+		}
+	}
+
+	&-footer{
+		&>td{
+			padding-top:10px !important;
+			padding-bottom:10px !important;	
+		}
+		border-top:1px solid $dark-grey;
+		border-bottom:1px solid $dark-grey;
+	}
+}
+
+.tables-set-print-container{
+	table.read-only-table{
+		
+		&>thead{
+			&>tr:first-child{
+				&>th{
+					
+					font-size:15px;
+				}
+			}
+			&>tr{
+				&>th{
+					background: #6D6E70;
+				}
+			}
+		}
+		
+		&>tbody{
+			&>tr{
+				&:nth-child(even) {background: #E7E8E8;}
+				&:nth-child(odd) {background: #E7E8E8;}
+			}
+		}
+	}
+
+
+}
+
+.fc-view-container{
+	background:#FFF;
+} 
+a.fc-event {
+	font-size: 13px;
+	border-radius:0;
+	padding-bottom: 3px !important;
+	padding-top: 3px !important;
+	margin-bottom: 5px !important;
+}
+.fc-day-grid-event {
+	padding: 3px 2px;
+	padding-bottom:2px !important;
+}
+.fc-day-grid-event{
+	margin:0 !important;
+}
+.fc-event-container .tooltip{
+	position:fixed;
+	font-size:13px;
+	z-index:99999;
+}
+
+#calendar{
+	
+	margin-bottom: 20px;
+	display: table;
+}
+
+.fc-header-toolbar h2{
+	font-size:26px;
+}
+
+.fc-event.scheduled{
+	background-color: rgba(58,135,173,0.8);
+	border-color: rgba(58,135,173,0.8);
+}
+
+.fc-event.cancelled{
+	background-color: rgba(255,0,0,0.75);
+	border-color: rgba(255,0,0,0.75);
+}
+.fc-event.assigned{
+	background-color: green;
+	border-color: green;
+}
+.fc-event.conducted{
+	background-color: rgba(255,165,0,0.8);
+	border-color: rgba(255,165,0,0.8);	
+}
+.fc-event.complete{
+	background-color: #66CC00;
+	border-color: #66CC00;
+}
